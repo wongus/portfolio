@@ -4,7 +4,7 @@ const navSlide = ()=> {
     const navLinks = document.querySelectorAll('.nav-links li');
 
     burger.addEventListener('click', ()=> {
-        nav.classList.toggle('nav-active')
+        nav.classList.toggle('nav-active');
 
         navLinks.forEach((link, index) => {
             if(link.style.animation) {
@@ -14,7 +14,8 @@ const navSlide = ()=> {
             }
         });
         burger.classList.toggle('toggle');
-    })
+    });
+    
 }
 
 navSlide();
@@ -36,8 +37,8 @@ function navCheck(entries) {
         const directions = {
             height: coords.height,
             width: coords.width,
-            top: coords.top,
-            left: coords.left
+            top: coords.top + 16,
+            left: coords.left,
         };
         if(entry.isIntersecting) {
             selected.style.setProperty('left', `${directions.left}px`);
@@ -51,3 +52,5 @@ function navCheck(entries) {
 sections.forEach(section => {
     observer.observe(section);
 });
+
+window.onresize = function(){location.reload(); };
