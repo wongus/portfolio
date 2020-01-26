@@ -119,6 +119,7 @@ section h2 {
 @media screen and (max-width: 768px) {
     .header {
         height: 0%;
+        position: sticky;
     }
 
     body {
