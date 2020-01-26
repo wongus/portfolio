@@ -37,12 +37,12 @@ function navCheck(entries) {
         const directions = {
             height: coords.height,
             width: coords.width,
-            top: coords.top + 16,
+            top: coords.top,
             left: coords.left,
         };
         if(entry.isIntersecting) {
             selected.style.setProperty('left', `${directions.left}px`);
-            selected.style.setProperty('top', `${directions.top}px`);
+            selected.style.setProperty('top', '87.3%');
             selected.style.setProperty('width', `${directions.width}px`);
             selected.style.setProperty('height', `${directions.height}px`);
         }
