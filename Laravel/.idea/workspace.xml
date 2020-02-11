@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66a88eb0-4cb3-400d-bc99-e3d7479ea704" name="Default Changelist" comment="" />
+    <list default="true" id="66a88eb0-4cb3-400d-bc99-e3d7479ea704" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/phpProject/resources/views/blog/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpProject/resources/views/blog/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpProject/resources/views/blog/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpProject/resources/views/blog/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpProject/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpProject/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpProject/public/siteAssets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/public/siteAssets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpProject/resources/views/blog.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpProject/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/resources/views/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpProject/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpProject/resources/views/post.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpProject/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +44,7 @@
     <select />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/phpProject/portfoliov2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -132,6 +148,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ruben\wongus.github.io\Laravel\phpProject\resources\views\blog" />
+      <recent name="C:\Users\ruben\wongus.github.io\Laravel\phpProject\resources\views\index" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -157,6 +180,11 @@
       <workItem from="1580975724595" duration="13596000" />
       <workItem from="1580995391138" duration="1210000" />
       <workItem from="1581158628103" duration="475000" />
+      <workItem from="1581160002218" duration="1629000" />
+      <workItem from="1581274029831" duration="7268000" />
+      <workItem from="1581320849017" duration="2470000" />
+      <workItem from="1581329503640" duration="11661000" />
+      <workItem from="1581407724944" duration="2742000" />
     </task>
     <servers />
   </component>
@@ -168,18 +196,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580825824141" />
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1581411024043">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581411024043" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581274026125">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581274026125" />
     <state x="519" y="228" key="NewPhpClassDialog" timestamp="1580809895644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="519" y="228" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1580809895644" />
-    <state x="604" y="337" key="NewPhpFileDialog" timestamp="1580721202326">
+    <state x="604" y="337" key="NewPhpFileDialog" timestamp="1581343931425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="337" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1580721202326" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581158632740">
+    <state x="604" y="337" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1581343931425" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1581277882072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581158632740" />
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581277882072" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581407724601">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581407724601" />
     <state x="462" y="10" width="611" height="804" key="find.popup" timestamp="1580719581507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

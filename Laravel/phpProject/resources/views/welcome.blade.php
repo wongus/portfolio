@@ -1,6 +1,6 @@
 @extends ('layout')
 
-@section ('contentHome')
+@section ('content')
     <title>wongus - portfolio</title>
     <div class="siteWrapper">
         <a id="top"></a>
@@ -69,8 +69,8 @@
                         <h1 class="subjectHeader">Blog</h1>
                         <br>
                         <br>
-                        <a class="button" href="./blog" target="_blank">
-                            <p>Open in new tab</p>
+                        <a class="button" href="./blog">
+                            <p>View recent articles</p>
                         </a>
                         <div class="aboutSubject">
                             <br>

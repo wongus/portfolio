@@ -16,7 +16,12 @@ Route::get('/', function () {
 });
 
 Route::get('/blog', function() {
-    return view('blog');
+    return view('blog', [
+    'posts' => App\Post::take(8)->latest()->get()
+    ]);
 });
 
+Route::get('/blog', 'PostsController@index');
+Route::get('/blog/create', 'PostsController@create');
 Route::get('/blog/{post}', 'PostsController@show');
+Route::get('/blog/{post}/edit', 'PostsController@edit');

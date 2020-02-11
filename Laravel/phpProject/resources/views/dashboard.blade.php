@@ -1,6 +1,6 @@
 @extends ('layout')
 
-@section ('contentDashboard')
+@section ('content')
 <h1 class="subjectHeader">Dashboard</h1>
 
 <p class="aboutSubject"></p>

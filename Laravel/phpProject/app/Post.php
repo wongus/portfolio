@@ -16,10 +16,18 @@ class Post extends Model
         $this->save();
     }
 
-    public function create($title, $body) {
+    public function create($title, $body, $slug) {
         $post = new Post;
         $post->title = $title;
         $post->body = $body;
+        $post->slug = $slug;
         $post->save();
+    }
+
+    public function delete() {
+        $this->title = '';
+        $this->body = '';
+        $this->slug = '';
+        $this->save();
     }
 }
