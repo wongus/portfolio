@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str as str;
 
 class Post extends Model
 {
@@ -16,18 +17,11 @@ class Post extends Model
         $this->save();
     }
 
-    public function create($title, $body, $slug) {
+    public function create($title, $body) {
         $post = new Post;
         $post->title = $title;
         $post->body = $body;
-        $post->slug = $slug;
+        $post->slug = str::slug($title, '-');
         $post->save();
-    }
-
-    public function delete() {
-        $this->title = '';
-        $this->body = '';
-        $this->slug = '';
-        $this->save();
     }
 }

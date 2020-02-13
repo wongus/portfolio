@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 use DB;
 use App\Post;
+use Illuminate\Support\Str as str;
 
 class PostsController
 {
@@ -17,7 +18,7 @@ class PostsController
 
     public function show($slug)
     {
-        $post = Post::where('slug', $slug)->first();
+        $post = Post::where('slug', $slug)->firstOrFail();
         return view('blog.show', ['post' => $post]);
     }
 
@@ -25,20 +26,35 @@ class PostsController
     return view('blog.create');
     }
 
-    public function store() {
+    public function savePostToDB($post){
+        $post->title = request('title');
+        $post->body = request('body');
+        $post->slug = str::slug(request('title'), '-');
+        $post->save();
+    }
 
+    public function store() {
+        $post = new Post;
+        $this->savePostToDB($post);
+
+        return redirect('/blog');
     }
 
     public function edit($slug) {
-        $post = Post::where('slug', $slug)->first();
+        $post = Post::where('slug', $slug)->firstOrFail();
         return view('blog.edit', ['post' => $post]);
     }
 
-    public function update() {
-
+    public function delete($slug) {
+        $post = Post::where('slug', $slug)->firstOrFail();
+        $post->delete();
+        return redirect('/blog');
     }
 
-    public function destroy() {
+    public function update($slug) {
+        $post = Post::where('slug', $slug)->firstOrFail();
+        $this->savePostToDB($post);
 
+        return redirect('blog/' . $post->slug);
     }
 }

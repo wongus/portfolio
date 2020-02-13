@@ -8,11 +8,11 @@
             <a class="link" href="/"><h1><b>wongus</b></h1></a>
         </div>
         <a class="button smallerButton" href="/blog"><p>Go back</p></a>
-        <h1 class="aboutSubject blogNavHeader">Create a new article</h1>
+        <div class="aboutSubject blogNavHeader"><p>Create a new article</p></div>
     </div>
-
     <div class="form">
-    <form action="">
+    <form method="POST" action="/blog">
+        @csrf
         <div>
             <label for="title">Title</label>
             <div>

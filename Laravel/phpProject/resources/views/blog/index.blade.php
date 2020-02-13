@@ -8,13 +8,13 @@
             <a class="link" href="/"><h1><b>wongus</b></h1></a>
         </div>
         <a class="button smallerButton" href="/blog/create"><p>Create post</p></a>
-        <h1 class="aboutSubject blogNavHeader">Recently published articles</h1>
+        <div class="aboutSubject blogNavHeader"><p>Recently published articles</p></div>
     </div>
     <div class="singlePage">
         <div class="articlePreviews">
-            <ul class="previewElements">
+            <ul>
                 @foreach ($posts as $post)
-                    <a href="/blog/{{$post->slug}}"><img src="https://picsum.photos/100"></a>
+                    <a href="/blog/{{$post->slug}}"><img src="https://picsum.photos/id/{{$post->id+11}}/1080"></a>
                 @endforeach
             </ul>
         </div>

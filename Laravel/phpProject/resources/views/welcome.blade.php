@@ -48,8 +48,8 @@
                         <h1 class="subjectHeader">Info</h1>
                         <br>
                         <br>
-                        <a class="button" href="./dashboard" target="_blank">
-                            <p>Open in new tab</p>
+                        <a class="button" href="/dashboard">
+                            <p>View followed courses</p>
                         </a>
                         <div class="aboutSubject">
                             <br>
@@ -69,7 +69,7 @@
                         <h1 class="subjectHeader">Blog</h1>
                         <br>
                         <br>
-                        <a class="button" href="./blog">
+                        <a class="button" href="/blog">
                             <p>View recent articles</p>
                         </a>
                         <div class="aboutSubject">

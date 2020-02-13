@@ -16,11 +16,7 @@ class CreateGradesTable extends Migration
         Schema::create('grades', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->text('course');
-            $table->text('test');
-            $table->string('weighting (%)');
             $table->float('EC');
-            $table->float('score')->default(0);
-            $table->boolean('passed')->default(false);
             $table->timestamps();
         });
     }

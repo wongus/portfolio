@@ -26,6 +26,11 @@ main {
 
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+p {
+    background-color: transparent;
 }
 
 section {
@@ -78,15 +83,16 @@ section h2 {
 }
 
 .aboutSubject {
-    margin-top: 1vh;
+    margin-top: 2vh;
     color: #D1CDC7;
     text-shadow: 0.5vh 0.5vh 0.7vh #FFFFFF;
-    font-size: 1vw;
+    font-size: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    background-color: transparent;
 }
 
 .invisText {
@@ -100,7 +106,7 @@ section h2 {
     background-color: #EFEEEE;
     color: #D1CDC7;
     font-weight: bold;
-    padding: 2%;
+    padding: 1.5vh;
     text-decoration: none;
     box-shadow: -0.4vh -0.4vh 1.3vh #FFFFFF, 0.4vh 0.4vh 1.3vh #D1CDC7;
     text-shadow: 0.4vh 0.4vh 0.5vh #FFFFFF;
@@ -164,7 +170,6 @@ img {
 }
 
 .singlePage {
-    height: 100vh;
     overflow-y: hidden;
 }
 
@@ -174,15 +179,16 @@ img {
     text-align: center;
     color: #D1CDC7;
     text-shadow: 0.5vh 0.5vh 0.7vh #FFFFFF;
-    font-family: 'Montserrat';
-    font-weight: bold;
+    font-family: 'Roboto';
     font-size: 2vh;
     margin-bottom: 1vh;
 }
 
 input {
+    font-family: 'Roboto';
     margin-top: 1vh;
-    width: 80%;
+    margin-bottom: 5vh;
+    width: 35%;
     height: 5vh;
     padding-left: 0.4vw;
     box-sizing: border-box;
@@ -190,12 +196,18 @@ input {
     border-radius: 4px;
     background-color: #EFEEEE;
     box-shadow: inset 0.4vh 0.4vh 0.3vh #D1CDC7
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 
 textarea {
+    font-family: 'Roboto';
     margin-top: 1vh;
-    font-family: 'Montserrat';
-    padding-top: 0.4vh;
     padding-left: 0.4vw;
     width: 80%;
     height: 5vh;
@@ -206,8 +218,40 @@ textarea {
     box-shadow: inset 0.4vh 0.4vh 0.3vh #D1CDC7
 }
 
-.textarea {
-    margin-top: 5vh;
+table, td, tr, th {
+    border: 0.27vh solid #D1CDC7;
+    padding: 0.5vh;
+    border-collapse: collapse;
+    color: #D1CDC7;
+    text-shadow: 0.5vh 0.5vh 0.7vh #FFFFFF;
+}
+
+table {
+    width: 80%;
+}
+
+td {
+    height: 5.2vh;
+}
+
+th {
+    border: 0.33vh solid #D1CDC7;
+    height: 5.5vh;
+    text-align: left;
+}
+
+th, td {
+    padding: 1.33vh;
+}
+
+table a {
+    color: #D1CDC7;
+    text-shadow: 0.5vh 0.5vh 0.7vh #FFFFFF;
+    cursor: pointer;
+}
+
+table a:hover {
+    text-decoration: underline;
 }
 
 #body {
@@ -265,7 +309,7 @@ button:hover {
     color: #2F2F2F;
     margin-bottom: 1vh;
     margin-right: 2vh;
-    font-size: 1.2rem;
+    font-size: 2.6vh;
     display: flex;
     margin-left: 1vw;
 }
@@ -277,18 +321,28 @@ button:hover {
 
 .blogNavHeader {
     margin-top: 0vh;
-    margin-left: 33.5%;
+    font-size: 2.5vh;
+    margin-left: 28.5%;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
 }
 
 .articlePreviews {
-    margin: 20vh;
+    width: 90%;
+    margin: 10%;
     margin-top: 5vh;
     position: absolute;
 }
 
-.previewElements img {
+.articlePreviews img {
     width: 39vh;
-    padding: 0.2%;
+    padding: 0vw;
+    margin: 0.5vw;
+    border-radius: 1vw;
+    box-shadow: -0.4vh -0.4vh 1.3vh #FFFFFF, 0.4vh 0.4vh 1.3vh #D1CDC7;
 }
 
 .preview {
@@ -329,12 +383,14 @@ li {
 @media screen and (max-width: 768px) {
     .header {
         height: 0%;
+        position: -webkit-sticky;
         position: sticky;
         top: 0vh;
     }
 
-    body {
+    html, body {
         overflow-x: hidden;
+        width: 100%;
     }
 
     img {
