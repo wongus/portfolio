@@ -36,7 +36,9 @@ Route::get('/dashboard', 'GradesController@index');
 Route::post('/dashboard', 'GradesController@store');
 Route::get('/dashboard/create', 'GradesController@create');
 Route::get('/dashboard/{detail}', 'DetailsController@show');
+Route::get('/dashboard/{detail}/create', 'DetailsController@create');
 Route::get('/dashboard/{grade}/edit', 'DetailsController@edit');
 Route::delete('/dashboard/{grade}', 'GradesController@delete');
 Route::put('/dashboard/{grade}', 'GradesController@update');
+Route::post('/dashboard/{id}', 'DetailsController@store');
 //</editor-fold>

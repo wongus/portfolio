@@ -10,55 +10,62 @@ class DetailsController extends Controller
 {
     public function show($id)
     {
-        $detail = Detail::where('id', $id)->get();
         $grade = Grade::where('id', $id)->firstOrFail();
-        return view('dashboard.show', ['details' => $detail, 'grade' => $grade]);
+        return view('dashboard.show', ['details' => $grade->details, 'grade' => $grade]);
     }
 
-    public function create() {
-        return view('dashboard.create');
+    public function create($id)
+    {
+        $grade = Grade::where('id', $id)->firstOrFail();
+        return view('dashboard.detailscreate', ['grade' => $grade]);
     }
 
-    public function saveDetailToDB($detail){
-        $detail->course = request('course');
-        $detail->EC = request('ec');
+    public function saveDetailToDB($detail)
+    {
+        $detail->test = request('test');
+
+        $detail->weighting = request('weighting');
+        $detail->score = request('score');
+
+        $this->passCheck($detail);
+
         $detail->save();
     }
 
-    public function store() {
+    public function store($id)
+    {
+
         $detail = new Detail;
+        $detail->course_id = $id;
         $this->saveDetailToDB($detail);
 
-        return redirect('/dashboard');
+        return redirect('/dashboard/'.$id);
     }
 
-    public function edit($id) {
+    public function edit($id)
+    {
         $detail = Detail::where('id', $id)->firstOrFail();
         return view('dashboard.edit', ['detail' => $detail]);
-        $this->passCheck();
     }
 
-    public function delete($id) {
+    public function delete($id)
+    {
         $grade = Detail::where('id', $id)->firstOrFail();
         $grade->delete();
         return redirect('/dashboard');
     }
 
-    public function update($id) {
+    public function update($id)
+    {
         $detail = Detail::where('id', $id)->firstOrFail();
         $this->saveDetailToDB($detail);
-
         return redirect('/dashboard' . $detail->id);
     }
 
-    public function passCheck() {
-        if($this->score >= 5.5) {
-            $this->passed = true;
-            $this->save();
+    public function passCheck($detail)
+    {
+        if ($detail->score >= 5.5) {
+            $detail->passed = 1;
         }
-    }
-
-    public function grade() {
-        return $this->belongsTo('app\Grade');
     }
 }

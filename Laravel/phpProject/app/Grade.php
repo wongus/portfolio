@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Grade extends Model
 {
     public function details() {
-        return $this->hasMany(Detail::class);
+        return $this->hasMany(Detail::Class, 'course_id');
     }
 }

@@ -15,7 +15,7 @@ class CreateDetailsTable extends Migration
     {
         Schema::create('details', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->bigIncrements('course_id');
+            $table->unsignedBigInteger('course_id');
             $table->text('test');
             $table->string('weighting');
             $table->float('score')->default(0);

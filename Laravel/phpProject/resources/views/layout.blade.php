@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel='shortcut icon' href='/siteAssets/favicon.ico' type='image/x-icon' />
 </head>
 <body>
     @yield ('content')

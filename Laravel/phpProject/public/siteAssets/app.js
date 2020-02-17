@@ -47,7 +47,7 @@ function navCheck(entries) {
         };
         if(entry.isIntersecting) {
             selected.style.setProperty('left', `${directions.left}px`);
-            selected.style.setProperty('top', '87.3%');
+            selected.style.setProperty('top', '83%');
             selected.style.setProperty('width', `${directions.width}px`);
             selected.style.setProperty('height', `${directions.height}px`);
         }

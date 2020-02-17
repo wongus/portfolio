@@ -320,9 +320,9 @@ button:hover {
 }
 
 .blogNavHeader {
-    margin-top: 0vh;
     font-size: 2.5vh;
-    margin-left: 28.5%;
+    margin-left: 29.5vw;
+    margin-bottom: 1.3vh;
 }
 
 .center {
@@ -351,8 +351,19 @@ button:hover {
     margin-top: 10vh;
 }
 
-.preview h1 {
-    position: relative;
+.previewHeader {
+    color: #EFEEEE;
+    background-color: #2F2F2F;
+    font-size: 2vh;
+    font-family: Montserrat;
+    margin: 0.5vw;
+    margin-top: 25vh;
+    opacity: 80%;
+    width: 39vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    position: absolute;
+    display: inline-flex;
     justify-content: center;
 }
 
@@ -481,6 +492,11 @@ li {
         z-index: 0;
         transform: translateX(0%);
         transition: transform 0.5s ease;
+    }
+
+    .previewHeader {
+        display: flex;
+        flex-direction: row;
     }
 }
 

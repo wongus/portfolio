@@ -8,7 +8,7 @@
             <a class="link" href="/"><h1><b>wongus</b></h1></a>
         </div>
         <a class="button smallerButton" href="/dashboard"><p>Go back</p></a>
-        <a class="button smallerButton" href="/dashboard/{{$grade->id}}/edit"><p>Edit course</p></a>
+        <a class="button smallerButton" href="/dashboard/{{$grade->id}}/create"><p>Add test</p></a>
         <div class="aboutSubject blogNavHeader"><p>{{$grade->course}}</p></div>
     </div>
     <div class="singlePage">

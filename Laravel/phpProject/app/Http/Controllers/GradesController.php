@@ -14,7 +14,6 @@ class GradesController extends Controller
     public function index()
     {
         $grades = Grade::get();
-
         return view('dashboard.index', ['grades' => $grades]);
     }
 
@@ -37,9 +36,7 @@ class GradesController extends Controller
     public function store() {
         $grade = new Grade;
         $this->saveGradeToDB($grade);
-
         return redirect('/dashboard');
-
     }
 
     public function edit($id) {
@@ -56,7 +53,6 @@ class GradesController extends Controller
     public function update($id) {
         $grade = Grade::where('id', $id)->firstOrFail();
         $this->saveGradeToDB($grade);
-
         return redirect('/dashboard' . $grade->id);
     }
 }
