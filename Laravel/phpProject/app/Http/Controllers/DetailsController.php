@@ -34,32 +34,31 @@ class DetailsController extends Controller
 
     public function store($id)
     {
-
         $detail = new Detail;
         $detail->course_id = $id;
         $this->saveDetailToDB($detail);
-
         return redirect('/dashboard/'.$id);
     }
 
     public function edit($id)
     {
         $detail = Detail::where('id', $id)->firstOrFail();
-        return view('dashboard.edit', ['detail' => $detail]);
+        return view('dashboard.detailsedit', ['detail' => $detail]);
     }
 
     public function delete($id)
     {
-        $grade = Detail::where('id', $id)->firstOrFail();
-        $grade->delete();
-        return redirect('/dashboard');
+        $detail = Detail::where('id', $id)->firstOrFail();
+        $grade = $detail->grade;
+        $detail->delete();
+        return redirect('/dashboard/' .$grade->id);
     }
 
     public function update($id)
     {
         $detail = Detail::where('id', $id)->firstOrFail();
         $this->saveDetailToDB($detail);
-        return redirect('/dashboard' . $detail->id);
+        return redirect('/dashboard/' . $detail->id);
     }
 
     public function passCheck($detail)

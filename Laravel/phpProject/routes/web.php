@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::get('/blog', function() {
     return view('blog', [
-    'posts' => App\Post::take(8)->latest()->get()
+    'posts' => App\Post::take(4)->latest()->get()
     ]);
 });
 
@@ -35,10 +35,12 @@ Route::put('/blog/{post}', 'PostsController@update');
 Route::get('/dashboard', 'GradesController@index');
 Route::post('/dashboard', 'GradesController@store');
 Route::get('/dashboard/create', 'GradesController@create');
+Route::get('/dashboard/{grade}/edit', 'GradesController@edit');
+Route::delete('/dashboard/{grade}', 'GradesController@delete');
 Route::get('/dashboard/{detail}', 'DetailsController@show');
 Route::get('/dashboard/{detail}/create', 'DetailsController@create');
-Route::get('/dashboard/{grade}/edit', 'DetailsController@edit');
-Route::delete('/dashboard/{grade}', 'GradesController@delete');
+Route::get('/dashboard/{detail}/detailsedit', 'DetailsController@edit');
+Route::delete('/dashboard/course/{detail}', 'DetailsController@delete');
 Route::put('/dashboard/{grade}', 'GradesController@update');
 Route::post('/dashboard/{id}', 'DetailsController@store');
 //</editor-fold>

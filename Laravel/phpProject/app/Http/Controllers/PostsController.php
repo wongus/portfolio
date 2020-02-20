@@ -11,7 +11,7 @@ class PostsController
 {
 
     public function index() {
-        $posts = Post::latest()->get();
+        $posts = Post::latest()->take(8)->get();
 
         return view('blog.index', ['posts' => $posts]);
     }

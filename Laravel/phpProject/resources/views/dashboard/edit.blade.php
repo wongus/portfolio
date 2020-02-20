@@ -7,47 +7,31 @@
         <div id="subLogo">
             <a class="link" href="/"><h1><b>wongus</b></h1></a>
         </div>
-        <a class="button smallerButton" href="/dashboard/{{$detail->id}}"><p>Go back</p></a>
-        <div class="aboutSubject blogNavHeader"><p>Edit an existing article</p></div>
+        <a class="button smallerButton" href="/dashboard"><p>Go back</p></a>
+        <div class="aboutSubject blogNavHeader"><p>Edit an existing course</p></div>
     </div>
     <div class="form">
-        <form method="POST" action="/dashboard/{{$detail->id}}">
+        <form method="POST" action="/dashboard/{{$grade->id}}">
             @csrf
             @method('PUT')
             <div>
-                <label for="title">Test(s)</label>
+                <label for="course">Course</label>
                 <div>
-                    <input type="text" name="title" id="test" value="{{$detail->test}}">
+                    <input type="text" name="course" id="course">
                 </div>
             </div>
 
             <div>
-                <label for="title">Weighting(s)</label>
+                <label for="EC">EC</label>
                 <div>
-                    <input type="text" name="title" id="weighting" value="{{$detail->weighting}}">
+                    <input type="text" name="ec" id="course">
                 </div>
             </div>
 
             <div>
-                <label for="title">Score</label>
                 <div>
-                    <input type="text" name="title" id="title" value="{{$detail->score}}">
-                </div>
-            </div>
-
-            <div class="formButtons">
-                <button type="submit">Submit</button>
-            </div>
-        </form>
-        <form method="POST" action="/dashboard/{{$detail->id}}">
-            @csrf
-            @method('delete')
-
-            <div>
-                <div>
-                    <button type="delete">Delete</button>
+                    <button type="submit">Submit</button>
                 </div>
             </div>
         </form>
-
 @endsection

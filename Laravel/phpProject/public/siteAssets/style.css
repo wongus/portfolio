@@ -27,6 +27,8 @@ main {
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 p {
@@ -170,7 +172,9 @@ img {
 }
 
 .singlePage {
-    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100vw;
+    margin-top: 0vh;
 }
 
 .form {
@@ -246,12 +250,33 @@ th, td {
 
 table a {
     color: #D1CDC7;
-    text-shadow: 0.5vh 0.5vh 0.7vh #FFFFFF;
     cursor: pointer;
+    text-decoration: none;
 }
 
 table a:hover {
-    text-decoration: underline;
+    color: #2F2F2F;
+}
+
+.icons {
+    margin-right: 4vh;
+    display: inline-flex;
+}
+
+.icon {
+    margin: 0vh 1vh 0vh 3vh;
+    text-decoration: none;
+}
+
+.icon:hover {
+    color: #2F2F2F;
+    text-decoration: none;
+}
+
+.iconRow {
+    border: none;
+    width: 1%;
+    padding: 0px;
 }
 
 #body {
@@ -270,6 +295,16 @@ button {
     box-shadow:0.1vh 0.1vh 1vh #D1CDC7;
     text-shadow: 0.4vh 0.4vh 0.5vh #FFFFFF;
     white-space: nowrap;
+}
+
+button[type="icon"] {
+    all: unset;
+    width:4vh;
+}
+
+button[type="icon"]:hover {
+    all: unset;
+    width:4vh;
 }
 
 button:hover {
@@ -331,37 +366,34 @@ button:hover {
 }
 
 .articlePreviews {
-    width: 90%;
-    margin: 10%;
+    display: inline;
+    width: 90vw;
+    margin: 20vh;
     margin-top: 5vh;
     position: absolute;
 }
 
 .articlePreviews img {
-    width: 39vh;
-    padding: 0vw;
+    width: 22%;
     margin: 0.5vw;
     border-radius: 1vw;
     box-shadow: -0.4vh -0.4vh 1.3vh #FFFFFF, 0.4vh 0.4vh 1.3vh #D1CDC7;
 }
 
-.preview {
-    position: absolute;
-    list-style: none;
-    margin-top: 10vh;
+.articlePreviews ul {
+    display: inline;
 }
 
 .previewHeader {
     color: #EFEEEE;
     background-color: #2F2F2F;
-    font-size: 2vh;
     font-family: Montserrat;
     margin: 0.5vw;
-    margin-top: 25vh;
+    margin-top: 14%;
     opacity: 80%;
-    width: 39vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    width: 22%;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
     position: absolute;
     display: inline-flex;
     justify-content: center;
@@ -492,11 +524,6 @@ li {
         z-index: 0;
         transform: translateX(0%);
         transition: transform 0.5s ease;
-    }
-
-    .previewHeader {
-        display: flex;
-        flex-direction: row;
     }
 }
 

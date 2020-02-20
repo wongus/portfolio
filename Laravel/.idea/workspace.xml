@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66a88eb0-4cb3-400d-bc99-e3d7479ea704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/phpProject/public/siteAssets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpProject/resources/views/dashboard/detailscreate.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpProject/app/Detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/app/Detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpProject/app/Grade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/app/Grade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpProject/app/Http/Controllers/DetailsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/app/Http/Controllers/DetailsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpProject/app/Http/Controllers/GradesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/app/Http/Controllers/GradesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpProject/database/migrations/2020_02_13_102649_create_details_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/database/migrations/2020_02_13_102649_create_details_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpProject/public/siteAssets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/public/siteAssets/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpProject/public/siteAssets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/public/siteAssets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpProject/resources/views/blog/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/resources/views/blog/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpProject/resources/views/dashboard/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/resources/views/dashboard/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpProject/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpProject/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpProject/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +136,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpProject/app/Http/Controllers" />
+    <property name="last_opened_file_path" value="D:/oefentoets-fde1-2019-2020-wongus" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -193,7 +180,8 @@
       <workItem from="1581448010674" duration="795000" />
       <workItem from="1581505563787" duration="26754000" />
       <workItem from="1581666479910" duration="12134000" />
-      <workItem from="1581926387441" duration="18514000" />
+      <workItem from="1581926387441" duration="18538000" />
+      <workItem from="1582012257307" duration="1786000" />
     </task>
     <task id="LOCAL-00001" summary="Major methods added to the blog">
       <created>1581411069252</created>
@@ -209,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581607637911</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="improved dashboard">
+      <created>1581950278441</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581950278441</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +214,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Major methods added to the blog" />
     <MESSAGE value="added dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dashboard" />
+    <MESSAGE value="improved dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved dashboard" />
   </component>
   <component name="WindowStateProjectService">
     <state x="523" y="4" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581583682601">
@@ -230,14 +226,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1581671801325" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1581607636090">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1581950277332">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581607636090" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581605801803">
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581950277332" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582014708483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581605801803" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582014708483" />
     <state x="519" y="228" key="NewPhpClassDialog" timestamp="1580809895644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -254,10 +250,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581411075414" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581926388550">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1582012259247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581926388550" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582012259247" />
     <state x="462" y="10" width="738" height="804" key="find.popup" timestamp="1581674502610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

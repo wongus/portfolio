@@ -23,34 +23,40 @@ class GradesController extends Controller
         return view('dashboard.show', ['grade' => $grade]);
     }
 
-    public function create() {
+    public function create()
+    {
         return view('dashboard.create');
     }
 
-    public function saveGradeToDB($grade){
+    public function saveGradeToDB($grade)
+    {
         $grade->course = request('course');
         $grade->EC = request('ec');
         $grade->save();
     }
 
-    public function store() {
+    public function store()
+    {
         $grade = new Grade;
         $this->saveGradeToDB($grade);
         return redirect('/dashboard');
     }
 
-    public function edit($id) {
+    public function edit($id)
+    {
         $grade = Grade::where('id', $id)->firstOrFail();
         return view('dashboard.edit', ['grade' => $grade]);
     }
 
-    public function delete($id) {
+    public function delete($id)
+    {
         $grade = Grade::where('id', $id)->firstOrFail();
         $grade->delete();
         return redirect('/dashboard');
     }
 
-    public function update($id) {
+    public function update($id)
+    {
         $grade = Grade::where('id', $id)->firstOrFail();
         $this->saveGradeToDB($grade);
         return redirect('/dashboard' . $grade->id);

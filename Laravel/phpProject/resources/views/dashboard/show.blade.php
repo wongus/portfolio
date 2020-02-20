@@ -26,7 +26,18 @@
                         <td>{{$detail->weighting}}</td>
                         <td>{{$detail->score}}</td>
                         <td>{{$detail->passed}}</td>
+                        <td class="iconRow">
+                            <div class="icons">
+                                <a href="/dashboard/{{$detail->id}}/detailsedit"><p class="editIcon icon">✎</p></a>
+                                <form method="POST" action="/dashboard/assignment/{{$detail->id}}">
+                                    @csrf
+                                    @method('delete')
+                                    <button type="icon"><p class="deleteIcon icon">✖</p></button>
+                                </form>
+                            </div>
+                        </td>
                     </tr>
+
                 @endforeach
             </table>
         </div>
