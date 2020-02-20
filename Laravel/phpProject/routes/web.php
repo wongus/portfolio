@@ -29,6 +29,7 @@ Route::get('/blog/{post}', 'PostsController@show');
 Route::get('/blog/{post}/edit', 'PostsController@edit');
 Route::delete('/blog/{post}', 'PostsController@delete');
 Route::put('/blog/{post}', 'PostsController@update');
+
 //</editor-fold>
 
 //<editor-fold desc="Dashboard-routes">
