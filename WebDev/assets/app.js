@@ -1,3 +1,6 @@
+document.cookie = 'same-site-cookie=foo; SameSite=Lax';
+document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
+
 const navSlide = ()=> {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');

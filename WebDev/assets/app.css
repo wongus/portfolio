@@ -1,0 +1,366 @@
+@font-face {
+    font-family: 'Undertale';
+    src: url('../assets/fonts/Undertale.otf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EFEEEE;
+    -webkit-backface-visibility: hidden;
+}
+
+main {
+    margin-left: 0.4vw;
+    margin-right: 0.4vw;
+    background-color: #EFEEEE;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+p {
+    background-color: transparent;
+}
+
+section {
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    background-color: #EFEEEE;
+    margin-bottom: 15vh;
+}
+
+section h2 {
+    color: #565454;
+    align-items: center;
+}
+
+.header {
+    z-index: 1;
+    box-shadow: 0.4vh 0.4vh 1.3vh #D1CDC7;
+    position: sticky;
+    top: 0vh;
+    background-color: #EFEEEE;
+    height: 17.6vh;
+    opacity: 97%;
+}
+
+.subject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+    padding-top: 10vh;
+    font-weight: bold;
+}
+
+.button {
+    justify-content: center;
+    font-size: 3vh;
+    border-radius: 3.3vw;
+    background-color: #EFEEEE;
+    color: #D1CDC7;
+    font-weight: bold;
+    padding: 1.5vh;
+    text-decoration: none;
+    box-shadow: -0.4vh -0.4vh 1.3vh #FFFFFF, 0.4vh 0.4vh 1.3vh #D1CDC7;
+    text-shadow: 0.4vh 0.4vh 0.5vh #FFFFFF;
+    white-space: nowrap;
+}
+
+.button:hover {
+    background-color: #EFEEEE;
+    color: #cfcbc5;
+    box-shadow: inset -0.4vh -0.4vh 1.3vh #FFFFFF, inset 0.4vh 0.9vh 1.3vh #D1CDC7;
+}
+
+#logo {
+    width: 50vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1vh;
+    padding-bottom: 1.8vh;
+    justify-content: center;
+}
+
+img {
+    height: auto;
+    width: 35%;
+}
+
+.nav-links {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7vh;
+    flex: 0;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: #565454;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #EFEEEE;
+    color: #cfcbc5;
+    box-shadow: inset 0.1vh 0.1vh 1vh #D1CDC7;
+}
+
+li {
+    padding: 0vh;
+}
+
+.selected {
+    position: absolute;
+    z-index: -2;
+    background: #70be7b;
+    transform: scale(1.1, 0.09);
+    transition: 0.5s ease;
+}
+
+.burger div{
+    display: block;
+    margin-left: 80%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 23px;
+    height: 2px;
+    background-color: #565454;
+    margin: 5px;
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #FFFFFF;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    height: 30vh;
+    background: #70be7b;
+    border-radius: 20vh;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #70be7b;
+  }
+
+  #map {
+    height: 50vh;
+  }
+
+  footer {
+    box-shadow: -0.4vh -0.4vh 1.3vh #D1CDC7;
+    padding: 5vh;
+    background-color: #EFEEEE;
+    height: 17.6vh;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer ul p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    font-size: 2vh;
+    font-weight: bold;
+  }
+
+  .footer-inline {
+      display: inline-block;
+  }
+
+  footer ul {
+      padding: 10vh;
+      padding-top: 0.5vh;
+      display: inline-block;
+  }
+
+  footer li {
+      padding: 0.2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      list-style: none;
+  }
+
+  .icon {
+    margin: 1vh;
+    font-size: 3vh;
+  }
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 0%;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0vh;
+    }
+
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .selected {
+        display: none;
+    }
+
+    .burger div {
+        display: block;
+        margin-left: 70vw;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .burger {
+        margin-top: 1.4vh;
+        z-index: 1;
+    }
+
+    .nav-links {
+        position: absolute;
+        right: -20vw;
+        height: 100vh;
+        top: 0vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        transform: translateX(100%);
+        transition: transform 0.5s ease;
+    }
+
+    .nav-links li {
+        opacity: 0;
+        padding-bottom: 12vh;
+        font-size: 2vh;
+    }
+
+    #logo {
+        display: inline-block;
+        display: flex;
+        padding-bottom: 1vh;
+        margin-left: 1vw;
+        justify-content: left;
+        width: 50vw;
+    }
+
+    .greeting {
+        font-size: 9.2vh;
+    }
+
+    .subjectHeader {
+        font-size: 10vh;
+        margin: 5vh;
+        text-align : center;
+    }
+
+    section {
+        min-height: 95vh;
+        margin-bottom: 0vh;
+    }
+
+    .subject {
+        margin-top: 20vh;
+    }
+
+    .aboutSubject {
+        font-size: 3vw;
+        padding-bottom: 7vh;
+        margin: 5vh;
+        text-align : center;
+    }
+
+    .nav {
+        display: none;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .nav-active {
+        z-index: 0;
+        transform: translateX(0%);
+        transition: transform 0.5s ease;
+    }
+    
+    footer {
+        box-shadow: -0.4vh -0.4vh 1.3vh #D1CDC7;
+        padding: 5vh;
+        background-color: #EFEEEE;
+        height: 17.6vh;
+        opacity: 80%;
+        display: flex;
+        justify-content: center;
+      }
+    
+      footer ul p {
+        font-size: 1.7vh;
+        font-weight: bold;
+      }
+    
+      .footer-inline {
+          display: inline-block;
+      }
+    
+      footer ul {
+          padding: 10vh;
+          padding-top: 1vh;
+          display: inline-block;
+      }
+    
+      footer li {
+          list-style: none;
+      }
+    
+      .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .icon {
+        margin: 1vh;
+        font-size: 3vh;
+      }
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-4px, -6px);
+}
