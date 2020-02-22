@@ -160,8 +160,9 @@ li {
     background: #70be7b;
   }
 
-  #map {
-    height: 50vh;
+  #mapContainer {
+      width: 100vw;
+      height: 100vh;
   }
 
   footer {

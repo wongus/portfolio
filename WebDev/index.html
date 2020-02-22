@@ -43,37 +43,19 @@
             </div>
             <div id="locatie">
                 <section class="locatie">
-                    <div id="map"></div>
-                    <style>
-                        #map {
-                            z-index: 0;
-                            height: 100vh;
-                            width: 100vw;
-                        }
-                    </style>
-                    <script>
-                        var map;
-
-                        function initMap() {
-                            map = new google.maps.Map(document.getElementById('map'), {
-                                center: {
-                                    lat: 51.329314,
-                                    lng: 3.688088
-                                },
-                                zoom: 8
-                            });
-                        }
-                    </script>
-                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYPLL4TsXoQBnQF34a1cr6Jp7LqIUkm2g&callback=initMap" async defer></script>
-                </section>
+                    <div id="map" class="map">
+                        
+                    </div>
             </div>
-            <div id="contact">
-                <section class="contact">
-                    <h2>Contact</h2>
-                </section>
-            </div>
-        </main>
-        <script src="./assets/app.js"></script>
+            </section>
+    </div>
+    <div id="contact">
+        <section class="contact">
+            <h2>Contact</h2>
+        </section>
+    </div>
+    </main>
+    <script src="./assets/app.js"></script>
     </div>
 </body>
 <footer>
