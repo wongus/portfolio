@@ -10,6 +10,30 @@
     background-color: #EFEEEE;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 1vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #EFEEEE;
+    box-shadow: inset -0.4vh -0.4vh 1.3vh #FFFFFF, inset 0.4vh 0.9vh 1.3vh #D1CDC7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FFFFFF;
+    box-shadow: -0.4vh -0.4vh 1.3vh #FFFFFF, 0.4vh 0.4vh 1.3vh #D1CDC7;
+    border-radius: 5vh;
+    height: 20vh;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #FFFFFF;
+}
+
 ::selection {
     background: none;
 }

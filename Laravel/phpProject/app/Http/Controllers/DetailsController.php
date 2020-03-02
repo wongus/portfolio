@@ -17,7 +17,7 @@ class DetailsController extends Controller
     public function create($id)
     {
         $grade = Grade::where('id', $id)->firstOrFail();
-        return view('dashboard.detailscreate', ['grade' => $grade]);
+        return view('dashboard.detail.create', ['grade' => $grade]);
     }
 
     public function saveDetailToDB($detail)
@@ -37,28 +37,27 @@ class DetailsController extends Controller
         $detail = new Detail;
         $detail->course_id = $id;
         $this->saveDetailToDB($detail);
-        return redirect('/dashboard/'.$id);
+        return redirect('/dashboard/course/'.$id);
     }
 
     public function edit($id)
     {
         $detail = Detail::where('id', $id)->firstOrFail();
-        return view('dashboard.detailsedit', ['detail' => $detail]);
+        return view('dashboard.detail.edit', ['detail' => $detail]);
     }
 
     public function delete($id)
     {
         $detail = Detail::where('id', $id)->firstOrFail();
-        $grade = $detail->grade;
         $detail->delete();
-        return redirect('/dashboard/' .$grade->id);
     }
 
     public function update($id)
     {
         $detail = Detail::where('id', $id)->firstOrFail();
+        $grade = $detail->grade;
         $this->saveDetailToDB($detail);
-        return redirect('/dashboard/' . $detail->id);
+        return redirect('/dashboard/course/' . $grade->id);
     }
 
     public function passCheck($detail)

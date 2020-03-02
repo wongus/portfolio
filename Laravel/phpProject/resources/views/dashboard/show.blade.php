@@ -28,8 +28,8 @@
                         <td>{{$detail->passed}}</td>
                         <td class="iconRow">
                             <div class="icons">
-                                <a href="/dashboard/{{$detail->id}}/detailsedit"><p class="editIcon icon">✎</p></a>
-                                <form method="POST" action="/dashboard/assignment/{{$detail->id}}">
+                                <a href="/dashboard/course/{{$grade->id}}/edit"><p class="editIcon icon">✎</p></a>
+                                <form method="POST" action="/dashboard/course/{{$detail->id}}">
                                     @csrf
                                     @method('delete')
                                     <button type="icon"><p class="deleteIcon icon">✖</p></button>

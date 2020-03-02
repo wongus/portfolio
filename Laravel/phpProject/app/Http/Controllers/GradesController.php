@@ -59,6 +59,6 @@ class GradesController extends Controller
     {
         $grade = Grade::where('id', $id)->firstOrFail();
         $this->saveGradeToDB($grade);
-        return redirect('/dashboard' . $grade->id);
+        return redirect('/dashboard/' . $grade->id);
     }
 }

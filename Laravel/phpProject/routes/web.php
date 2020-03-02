@@ -29,19 +29,20 @@ Route::get('/blog/{post}', 'PostsController@show');
 Route::get('/blog/{post}/edit', 'PostsController@edit');
 Route::delete('/blog/{post}', 'PostsController@delete');
 Route::put('/blog/{post}', 'PostsController@update');
-
 //</editor-fold>
 
 //<editor-fold desc="Dashboard-routes">
 Route::get('/dashboard', 'GradesController@index');
-Route::post('/dashboard', 'GradesController@store');
 Route::get('/dashboard/create', 'GradesController@create');
+Route::post('/dashboard', 'GradesController@store');
 Route::get('/dashboard/{grade}/edit', 'GradesController@edit');
-Route::delete('/dashboard/{grade}', 'GradesController@delete');
-Route::get('/dashboard/{detail}', 'DetailsController@show');
-Route::get('/dashboard/{detail}/create', 'DetailsController@create');
-Route::get('/dashboard/{detail}/detailsedit', 'DetailsController@edit');
-Route::delete('/dashboard/course/{detail}', 'DetailsController@delete');
 Route::put('/dashboard/{grade}', 'GradesController@update');
+Route::delete('/dashboard/{grade}', 'GradesController@delete');
+
+Route::get('/dashboard/course/{detail}', 'DetailsController@show');
+Route::get('/dashboard/{detail}/create', 'DetailsController@create');
 Route::post('/dashboard/{id}', 'DetailsController@store');
+Route::get('/dashboard/course/{detail}/edit', 'DetailsController@edit');
+Route::put('/dashboard/{detail}', 'GradesController@update');
+Route::delete('/dashboard/course/{detail}', 'DetailsController@delete');
 //</editor-fold>

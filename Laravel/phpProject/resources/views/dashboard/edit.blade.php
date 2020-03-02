@@ -17,14 +17,14 @@
             <div>
                 <label for="course">Course</label>
                 <div>
-                    <input type="text" name="course" id="course">
+                    <input type="text" name="course" id="course" value="{{$grade->course}}">
                 </div>
             </div>
 
             <div>
                 <label for="EC">EC</label>
                 <div>
-                    <input type="text" name="ec" id="course">
+                    <input type="text" name="ec" id="ec" value="{{$grade->ec}}">
                 </div>
             </div>
 

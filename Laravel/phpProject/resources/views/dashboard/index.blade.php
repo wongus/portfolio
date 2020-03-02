@@ -19,7 +19,7 @@
                 </tr>
                 @foreach ($grades as $grade)
                     <tr>
-                        <td><a href="dashboard/{{$grade->id}}">{{$grade->course}}</a></td>
+                        <td><a href="dashboard/course/{{$grade->id}}">{{$grade->course}}</a></td>
                         <td>{{$grade->EC}}</td>
                         <td class="iconRow">
                             <div class="icons">
