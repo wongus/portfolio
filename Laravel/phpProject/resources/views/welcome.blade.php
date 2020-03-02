@@ -14,7 +14,7 @@
                 </div>
             </div>
             <ul class="nav-links">
-                <li><a data-page="subject1" href="#top">Intro</a></li>
+                <li><a data-page="subject1" href="#subject1">Intro</a></li>
                 <li><a data-page="subject2" href="#subject2">Who</a></li>
                 <li><a data-page="subject3" href="#subject3">Info</a></li>
                 <li><a data-page="subject4" href="#subject4">Blog</a></li>

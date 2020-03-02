@@ -73,6 +73,7 @@ section h2 {
 }
 
 .header {
+    width: 100vw;
     z-index: 1;
     box-shadow: 0.4vh 0.4vh 1.3vh #D1CDC7;
     position: sticky;
@@ -90,6 +91,7 @@ section h2 {
 }
 
 .subject {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,7 +102,7 @@ section h2 {
 
 .subjectHeader {
     padding-top: 25vh;
-    font-size: 7vw;
+    font-size: 8vw;
     color: #EFEEEE;
     text-shadow: -0.4vh -0.4vh 1.1vh #FFFFFF, 0.4vh 0.4vh 1.1vh #D1CDC7;
     justify-content: center;
@@ -169,13 +171,12 @@ img {
 }
 
 .nav-links {
-    margin-left: 20vw;
+    margin-left: 22vw;
     margin-right: 20vw;
     list-style: none;
     display: flex;
     justify-content: space-between;
     font-size: 1.7vh;
-    flex: 0;
     font-weight: bold;
 }
 

@@ -46,7 +46,7 @@ function navCheck(entries) {
             left: coords.left,
         };
         if(entry.isIntersecting) {
-            selected.style.setProperty('left', `${directions.left}px`);
+            selected.style.setProperty('left', `${directions.left + 5}px`);
             selected.style.setProperty('top', '83%');
             selected.style.setProperty('width', `${directions.width}px`);
             selected.style.setProperty('height', `${directions.height}px`);
