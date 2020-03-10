@@ -1,100 +1,125 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends ('layout')
+@section ('content')
+    <header class="page-header header container-fluid">
+        <div class="overlay">
+            <div class="description my-auto">
+                <h1>Welcome to the Landing Page!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat
+                    ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. Suspendisse
+                    consectetur mi id libero fringilla, in pharetra sem ullamcorper.</p>
+                <button class="btn btn-outline-secondary btn-lg" onclick="window.location.href='/#home'">Tell Me More!
+                </button>
+            </div>
+        </div>
+    </header>
 
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
+    <section id="home">
+        <div class="container features">
+            <div class="row wow fadeIn">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="feature-title">Lorem ipsum</h3>
+                    <img src="https://picsum.photos/id/237/300/300" class="img-fluid">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
+                        placerat
+                        ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
                 </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="feature-title">Lorem ipsum</h3>
+                    <img src="https://picsum.photos/id/238/300/300" class="img-fluid">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
+                        placerat
+                        ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
                 </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="feature-title">Lorem ipsum</h3>
+                    <img src="https://picsum.photos/id/239/300/300" class="img-fluid">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
+                        placerat
+                        ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
                 </div>
             </div>
         </div>
-    </body>
-</html>
+    </section>
+
+    <section id="about">
+        <div class="container features">
+            <div class="row wow fadeIn">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="feature-title">Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia, ipsum sit amet mattis
+                        porttitor, diam ipsum euismod turpis, eget aliquam felis mauris eget dolor. Vivamus suscipit ac
+                        magna in tempor. Aliquam erat volutpat. Phasellus nulla nunc, facilisis id tempor at, volutpat
+                        at tortor. Morbi ac porta purus. Proin dignissim elit in maximus vestibulum. Cras sit amet
+                        pellentesque tortor, eu ultrices sapien. Proin placerat nulla in malesuada pretium. Maecenas
+                        tempus sem eget velit fringilla, tempus posuere purus auctor. Maecenas ultrices dignissim diam,
+                        quis ultrices odio.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="feature-title">Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia, ipsum sit amet mattis
+                        porttitor, diam ipsum euismod turpis, eget aliquam felis mauris eget dolor. Vivamus suscipit ac
+                        magna in tempor. Aliquam erat volutpat. Phasellus nulla nunc, facilisis id tempor at, volutpat
+                        at tortor. Morbi ac porta purus. Proin dignissim elit in maximus vestibulum. Cras sit amet
+                        pellentesque tortor, eu ultrices sapien. Proin placerat nulla in malesuada pretium. Maecenas
+                        tempus sem eget velit fringilla, tempus posuere purus auctor. Maecenas ultrices dignissim diam,
+                        quis ultrices odio.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="feature-title">Lorem ipsum</h3>
+                    <img src="https://picsum.photos/id/250/300/300" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container features">
+            <div class="row wow fadeIn">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="feature-title">Lorem ipsum</h3>
+                    <img src="https://picsum.photos/id/240/300/300" class="img-fluid">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
+                        placerat
+                        ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                </div>
+                <div>
+                    <h3 class="feature-title">Get in Touch!</h3>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name" name="">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email Address" name="email">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-outline-secondary btn-block btn-lg" value="Send" name="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
+                        placerat
+                        ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
+                        placerat
+                        ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <p>1640 Riverside Drive, Hill Valley, California
+                        <br/>info@mywebsite.com
+                        <br/>+ 01 234 567 88
+                        <br/>+ 01 234 567 89</p>
+                </div>
+            </div>
+            <div class="footer-copyright text-center">© 2020 Copyright: wongus.xyz</div>
+        </div>
+    </footer>
+@endsection

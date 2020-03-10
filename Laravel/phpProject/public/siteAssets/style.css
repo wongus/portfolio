@@ -74,6 +74,7 @@ section h2 {
 
 .header {
     width: 100vw;
+    height: 100vh;
     z-index: 1;
     box-shadow: 0.4vh 0.4vh 1.3vh #D1CDC7;
     position: sticky;
@@ -434,18 +435,6 @@ li {
     background: #ECB488;
     transform: scale(1.3, 0.13);
     transition: 0.5s ease;
-}
-
-.burger div {
-    display: block;
-    margin-left: 80%;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    width: 23px;
-    height: 3px;
-    background-color: #ECB488;
-    margin: 5px;
-    display: none;
 }
 
 @media screen and (max-width: 768px) {
