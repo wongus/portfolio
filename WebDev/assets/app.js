@@ -1,16 +1,16 @@
 document.cookie = 'same-site-cookie=foo; SameSite=Lax';
 document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
 
-const navSlide = ()=> {
+const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
 
-    burger.addEventListener('click', ()=> {
+    burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
 
         navLinks.forEach((link, index) => {
-            if(link.style.animation) {
+            if (link.style.animation) {
                 link.style.animation = '';
             } else {
                 link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0}s`;
@@ -18,7 +18,7 @@ const navSlide = ()=> {
         });
         burger.classList.toggle('toggle');
     });
-    
+
 }
 
 navSlide();
@@ -43,7 +43,7 @@ function navCheck(entries) {
             top: coords.top,
             left: coords.left,
         };
-        if(entry.isIntersecting) {
+        if (entry.isIntersecting) {
             selected.style.setProperty('left', `${directions.left}px`);
             selected.style.setProperty('top', '87.3%');
             selected.style.setProperty('width', `${directions.width}px`);
@@ -56,4 +56,4 @@ sections.forEach(section => {
     observer.observe(section);
 });
 
-window.onresize = function(){location.reload(); };
+window.onresize = function () { location.reload(); };
