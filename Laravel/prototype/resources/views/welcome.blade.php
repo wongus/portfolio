@@ -15,7 +15,7 @@
 
     <section id="home">
         <div class="container features">
-            <div class="row wow fadeIn">
+            <div class="row wow slideInRight">
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h3 class="feature-title">Lorem ipsum</h3>
                     <img src="https://picsum.photos/id/237/300/300" class="img-fluid">
@@ -43,7 +43,7 @@
 
     <section id="about">
         <div class="container features">
-            <div class="row wow fadeIn">
+            <div class="row wow slideInLeft">
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h3 class="feature-title">Lorem ipsum</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia, ipsum sit amet mattis
@@ -74,7 +74,7 @@
 
     <section id="contact">
         <div class="container features">
-            <div class="row wow fadeIn">
+            <div class="row wow slideInRight">
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h3 class="feature-title">Lorem ipsum</h3>
                     <img src="https://picsum.photos/id/240/300/300" class="img-fluid">
