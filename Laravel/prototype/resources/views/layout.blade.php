@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Document</title>
+    <title>CultureUp - Home</title>
 </head>
 <body>
 
 <nav class="navbar fixed-top navbar-expand-md">
-    <a class="navbar-brand" href="/">Wongus</a>
+    <a class="navbar-brand" href="/">CultureUp</a>
     <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,16 +26,10 @@
     <div class="collapse navbar-collapse" id="main-navigation">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="/#home">Home</a>
+                <a class="nav-link name" href="#">J. Doe</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/prototype">Prototype</a>
+            <li class="nav-item user-icon">
+                <a href="/profile"><img src="default.jpg"></a>
             </li>
         </ul>
     </div>

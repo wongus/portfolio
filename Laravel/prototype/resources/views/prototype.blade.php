@@ -1,8 +1,6 @@
 @extends ('layout')
 @section ('content')
     <head>
-        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
-        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
         <link rel="stylesheet" type="text/css" href="prototype.css">
     </head>
     <div id="carouselExampleControls" class="carousel slide w-100" data-interval="false">
@@ -107,6 +105,4 @@
             </a>
         </div>
     </div>
-    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 @endsection

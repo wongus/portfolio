@@ -1,125 +1,193 @@
 @extends ('layout')
 @section ('content')
-    <header class="page-header header container-fluid">
-        <div class="overlay">
-            <div class="description my-auto">
-                <h1>Welcome to the Landing Page!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat
-                    ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. Suspendisse
-                    consectetur mi id libero fringilla, in pharetra sem ullamcorper.</p>
-                <button class="btn btn-outline-secondary btn-lg" onclick="window.location.href='/#home'">Tell Me More!
-                </button>
-            </div>
-        </div>
-    </header>
-
     <section id="home">
-        <div class="container features">
-            <div class="row wow slideInRight">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h3 class="feature-title">Lorem ipsum</h3>
-                    <img src="https://picsum.photos/id/237/300/300" class="img-fluid">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
-                        placerat
-                        ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h3 class="feature-title">Lorem ipsum</h3>
-                    <img src="https://picsum.photos/id/238/300/300" class="img-fluid">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
-                        placerat
-                        ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h3 class="feature-title">Lorem ipsum</h3>
-                    <img src="https://picsum.photos/id/239/300/300" class="img-fluid">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
-                        placerat
-                        ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-                </div>
+        <div class="container-fluid cards">
+            <div class="wow card-columns">
+                <a href="/case" class="custom-card">
+                    <div class="card rounded text-center h-auto">
+                        <img class="card-img-top rounded" src="https://picsum.photos/id/200/1920">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/case" class="custom-card">
+                    <div class="card rounded text-center h-auto">
+                        <img class="card-img-top rounded" src="https://picsum.photos/id/100/1920">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/case" class="custom-card">
+                    <div class="card rounded text-center h-auto">
+                        <img class="card-img-top rounded" src="https://picsum.photos/id/300/1920">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque interdum quam odio, quis
+                                placerat
+                                ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/case" class="custom-card">
+                    <div class="card rounded text-center h-auto">
+                        <img class="card-img-top rounded" src="https://picsum.photos/id/50/1920">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text text-left">Lorem ipsum.
+                                ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/case" class="custom-card">
+                    <div class="card rounded text-center h-auto">
+                        <img class="card-img-top rounded" src="https://picsum.photos/id/10/1920">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/case" class="custom-card">
+                    <div class="card rounded text-center h-auto">
+                        <img class="card-img-top rounded" src="https://picsum.photos/id/350/1920">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/case" class="custom-card">
+                    <div class="card rounded text-center h-auto">
+                        <img class="card-img-top rounded" src="https://picsum.photos/id/35/1920">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque interdum quam odio, quis
+                                placerat
+                                ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/case" class="custom-card">
+                    <div class="card rounded text-center h-auto">
+                        <img class="card-img-top rounded" src="https://picsum.photos/id/310/1920">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text text-left">Lorem ipsum.
+                                ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/case" class="custom-card">
+                    <div class="card rounded text-center h-auto">
+                        <img class="card-img-top rounded" src="https://picsum.photos/id/110/1920">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/case" class="custom-card">
+                    <div class="card rounded text-center h-auto">
+                        <img class="card-img-top rounded" src="https://picsum.photos/id/238/1920">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/case" class="custom-card">
+                    <div class="card rounded text-center h-auto">
+                        <img class="card-img-top rounded" src="https://picsum.photos/id/400/1920">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque interdum quam odio, quis
+                                placerat
+                                ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/case" class="custom-card">
+                    <div class="card rounded text-center h-auto">
+                        <img class="card-img-top rounded" src="https://picsum.photos/id/327/1920">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text text-left">Lorem ipsum.
+                                ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/case" class="custom-card">
+                    <div class="card rounded text-center h-auto">
+                        <img class="card-img-top rounded" src="https://picsum.photos/id/315/1920">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text text-left">Lorem ipsum.
+                                ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
+    <section id="overlay">
+        <div class="container text-center expand">
+            <button id="viewMore" type="button text-center" class="btn btn-outline-secondary"><span class="material-icons btn">expand_more</span>
+                View more
+            </button>
+            <hr>
+            <h2 class="display-3">Lorem Ipsum</h2>
+            <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rhoncus nisl eu pharetra convallis.
+                Suspendisse ac accumsan leo, tristique molestie risus. Praesent accumsan magna vel ipsum condimentum, ut
+                feugiat enim volutpat. Donec ut euismod nisl, in ullamcorper quam. Cras interdum cursus velit nec
+                volutpat. Vivamus facilisis risus tellus, eget blandit orci lacinia id. Nulla fringilla sapien eget nisi
+                venenatis, non ullamcorper sapien porta. Aenean imperdiet, mi ac congue pellentesque, eros elit
+                facilisis ligula, vitae ullamcorper mi ligula vel odio. Vivamus elementum egestas ante et convallis. Nam
+                accumsan gravida sagittis. Fusce elit odio, vestibulum efficitur auctor et, vulputate sed mi.<br><br>
 
-    <section id="about">
-        <div class="container features">
-            <div class="row wow slideInLeft">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h3 class="feature-title">Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia, ipsum sit amet mattis
-                        porttitor, diam ipsum euismod turpis, eget aliquam felis mauris eget dolor. Vivamus suscipit ac
-                        magna in tempor. Aliquam erat volutpat. Phasellus nulla nunc, facilisis id tempor at, volutpat
-                        at tortor. Morbi ac porta purus. Proin dignissim elit in maximus vestibulum. Cras sit amet
-                        pellentesque tortor, eu ultrices sapien. Proin placerat nulla in malesuada pretium. Maecenas
-                        tempus sem eget velit fringilla, tempus posuere purus auctor. Maecenas ultrices dignissim diam,
-                        quis ultrices odio.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h3 class="feature-title">Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia, ipsum sit amet mattis
-                        porttitor, diam ipsum euismod turpis, eget aliquam felis mauris eget dolor. Vivamus suscipit ac
-                        magna in tempor. Aliquam erat volutpat. Phasellus nulla nunc, facilisis id tempor at, volutpat
-                        at tortor. Morbi ac porta purus. Proin dignissim elit in maximus vestibulum. Cras sit amet
-                        pellentesque tortor, eu ultrices sapien. Proin placerat nulla in malesuada pretium. Maecenas
-                        tempus sem eget velit fringilla, tempus posuere purus auctor. Maecenas ultrices dignissim diam,
-                        quis ultrices odio.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h3 class="feature-title">Lorem ipsum</h3>
-                    <img src="https://picsum.photos/id/250/300/300" class="img-fluid">
-                </div>
-            </div>
+                Phasellus ornare rutrum orci facilisis sagittis. Sed et condimentum tortor, at imperdiet mi. Praesent
+                commodo condimentum augue ac aliquet. Donec magna ligula, sodales eu est ac, venenatis elementum ex.
+                Donec ut sem ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus rutrum dignissim
+                tincidunt. Suspendisse potenti. Praesent ultricies pellentesque suscipit. Nam sodales risus sem, sed
+                rhoncus ante porta sed. Vestibulum risus tortor, tempor quis condimentum ut, dignissim vitae libero.
+                Curabitur fermentum nunc vitae tincidunt suscipit. Mauris venenatis elit eget ex gravida scelerisque.<br><br>
+
+                Vestibulum commodo in lorem at gravida. Suspendisse feugiat in risus et mollis. In magna arcu, facilisis
+                in nunc sed, pulvinar ullamcorper lorem. Nulla facilisi. Suspendisse accumsan enim quis mi pretium
+                tristique nec in eros. Donec quis nulla nec felis pellentesque fermentum. Phasellus faucibus laoreet
+                ante vel scelerisque. Sed ut tincidunt purus. Phasellus euismod ipsum velit, eget fermentum justo
+                molestie sed. Aenean non condimentum justo, auctor pulvinar tortor.</p>
         </div>
     </section>
-
-    <section id="contact">
-        <div class="container features">
-            <div class="row wow slideInRight">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h3 class="feature-title">Lorem ipsum</h3>
-                    <img src="https://picsum.photos/id/240/300/300" class="img-fluid">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
-                        placerat
-                        ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-                </div>
-                <div>
-                    <h3 class="feature-title">Get in Touch!</h3>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Name" name="">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email Address" name="email">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" rows="4"></textarea>
-                    </div>
-                    <input type="submit" class="btn btn-outline-secondary btn-block btn-lg" value="Send" name="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-8 col-sm-12">
-                    <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
-                        placerat
-                        ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
-                        placerat
-                        ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                    <p>1640 Riverside Drive, Hill Valley, California
-                        <br/>info@mywebsite.com
-                        <br/>+ 01 234 567 88
-                        <br/>+ 01 234 567 89</p>
-                </div>
-            </div>
-            <div class="footer-copyright text-center">© 2020 Copyright: wongus.xyz</div>
-        </div>
-    </footer>
 @endsection

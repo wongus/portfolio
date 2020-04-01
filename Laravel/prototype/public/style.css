@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    font-family: 'Roboto';
 }
 
 body {
@@ -7,6 +8,44 @@ body {
     margin: 0;
     background: #EFEEEE;
     overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+    padding: 0px 0px 0px 0px;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
 }
 
 /* width */
@@ -31,16 +70,35 @@ body {
 }
 
 .navbar {
-    background: black;
+    background-image: url('polygon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 5% bottom 40%;
+    -webkit-box-shadow: 0 2px 5px 2px rgba(60,64,67,0.15);
+    -moz-box-shadow: 0 2px 5px 2px rgba(60,64,67,0.15);
+    box-shadow: 0 2px 5px 2px rgba(60,64,67,0.15);
 }
 
 .navbar-brand {
-    font-family: 'Zhi Mang Xing';
     font-size: 1.35rem;
 }
 
 .navbar-brand:hover {
     color: #d7d6d6;
+}
+
+.user-icon {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.user-icon img {
+    width: auto;
+    height: 100%;
 }
 
 section::before {
@@ -54,7 +112,7 @@ section::before {
 
 .nav-link,
 .navbar-brand {
-    color: #EFEEEE;
+    color: white;
     cursor: pointer;
 }
 
@@ -63,77 +121,96 @@ section::before {
 }
 
 .nav-link:hover {
-    color: #d7d6d6;
+    color: #EFEEEE;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.name:hover {
+    color: white;
+    cursor: initial;
 }
 
 .navbar-collapse {
     justify-content: flex-end;
 }
 
-.header {
-    height: 100vh;
-    width: 100vw;
-    background-image: url('curve.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
 .wow {
     visibility: hidden;
 }
 
-.overlay {
+#home {
+    margin-top: 80px;
+}
+
+#overlay {
+    padding-top: 10px;
     position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.6);
+    display: block;
+    top: 94vh;
+    width: 100%;
+    min-height: 94vh;
+    background-color: white;
+    z-index: 1;
+    -webkit-box-shadow: 0 2px 5px 2px rgba(60,64,67,0.15);
+    -moz-box-shadow: 0 2px 5px 2px rgba(60,64,67,0.15);
+    box-shadow: 0 2px 5px 2px rgba(60,64,67,0.15);
+    transition-duration: 3s;
 }
 
-.description {
-    left: 50%;
-    position: absolute;
-    top: 45%;
-    transform: translate(-50%, -55%);
-    text-align: center;
+.hr {
+    margin: 0px 0px 0px 0px;
+    width: 100vw;
 }
 
-.description h1 {
-    color: #ECB488;
+.display-3 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
-.description p {
-    color: #EFEEEE;
-    font-size: 1.3rem;
-    line-height: 1.5;
+.card-columns {
+    column-count: 5;
 }
 
-.description button:hover {
-    background:#EFEEEE;
-    color:#000;
-}
-
-.features {
-    margin: 4em auto;
-    padding: 1em;
+.card {
+    z-index: 0;
+    width: 450px;
+    margin: 0px;
+    padding: 25px;
     position: relative;
 }
 
-.feature-title {
-    color: #333;
+.cards {
+    padding: 0px 100px;
+}
+
+.card-title {
+    color: black;
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
 
-.features img {
+.card-text {
+    font-family: 'Roboto';
+}
+
+.card-img-top {
     -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    width: 270px;
+    height: auto;
     margin-bottom: 16px;
+}
+
+a.custom-card,
+a.custom-card:hover {
+    color: inherit;
+    text-decoration: none;
 }
 
 .page-footer {
@@ -142,31 +219,12 @@ section::before {
     color: #ccc;
     padding: 60px 0 30px;
 }
+
 .footer-copyright {
     color: #666;
     padding: 40px 0;
 }
 
 @media (max-width: 575.98px) {
-    .description {
-        left: 0;
-        padding: 0 15px;
-        position: absolute;
-        top: 10%;
-        transform: none;
-        text-align: center;
-    }
 
-    .description h1 {
-        font-size: 2em;
-        text-align: center;
-    }
-
-    .description p {
-        font-size: 1.2rem;
-    }
-
-    .features {
-        margin: 0;
-    }
 }
