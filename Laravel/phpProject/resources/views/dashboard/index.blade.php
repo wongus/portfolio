@@ -3,13 +3,15 @@
 @section ('content')
     <title>wongus - dashboard</title>
     <body class="singlePage">
-    <div class="subNavHeader">
-        <div id="subLogo">
-            <a class="link" href="/"><h1><b>wongus</b></h1></a>
-        </div>
-        <a class="button smallerButton" href="/dashboard/create"><p>Add row</p></a>
-        <div class="aboutSubject blogNavHeader"><p>Dashboard</p></div>
-    </div>
+    <nav class="navbar navbar-expand navbar-light bg-light p-0 neunav">
+        <a class="navbar-brand" id="subLogo" href="/" style="font-size: 4vh;"><b>wongus</b></a>
+        <p class="my-auto">Dashboard</p>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link mr-2" href="/dashboard/create">Add row</a>
+            </li>
+        </ul>
+    </nav>
     <div class="singlePage">
         <div class="articlePreviews">
             <table>

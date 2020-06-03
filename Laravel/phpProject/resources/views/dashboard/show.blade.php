@@ -3,14 +3,14 @@
 @section ('content')
     <title>wongus - dashboard details</title>
     <body class="singlePage">
-    <div class="subNavHeader">
+    <nav>
         <div id="subLogo">
             <a class="link" href="/"><h1><b>wongus</b></h1></a>
         </div>
         <a class="button smallerButton" href="/dashboard"><p>Go back</p></a>
         <a class="button smallerButton" href="/dashboard/{{$grade->id}}/create"><p>Add test</p></a>
         <div class="aboutSubject blogNavHeader"><p>{{$grade->course}}</p></div>
-    </div>
+    </nav>
     <div class="singlePage">
         <div class="articlePreviews">
             <table>
@@ -20,7 +20,7 @@
                     <th>Score</th>
                     <th>Passed</th>
                 </tr>
-                @foreach ($details as $detail)
+                @foreach ($grade->details as $detail)
                     <tr>
                         <td>{{$detail->test}}</td>
                         <td>{{$detail->weighting}}</td>

@@ -54,7 +54,6 @@ class PostsController
     public function update($slug) {
         $post = Post::where('slug', $slug)->firstOrFail();
         $this->savePostToDB($post);
-
         return redirect('blog/' . $post->slug);
     }
 }

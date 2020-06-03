@@ -19,7 +19,7 @@ class GradesController extends Controller
 
     public function show($id)
     {
-        $grade = Grade::where('slug', $id)->get();
+        $grade = Grade::where('id', $id)->firstOrFail();
         return view('dashboard.show', ['grade' => $grade]);
     }
 
