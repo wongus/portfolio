@@ -3,8 +3,8 @@
 @section ('content')
     <title>wongus - portfolio</title>
     <nav class="headernav fixed-top" id="header" style="height: 15vh;">
-        <div id="logo" class="text-center pb-3">
-            <h1><b>wongus</b></h1>
+        <div class="pb-2 text-center">
+            <b id="logo" style="font-size: 6.5vh;">wongus</b>
         </div>
         <ul class="nav-links d-flex justify-content-between" style="padding-left: 0;">
             <li><a data-page="subject1" href="#subject1">Intro</a></li>
