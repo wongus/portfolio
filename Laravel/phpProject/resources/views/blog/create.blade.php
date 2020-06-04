@@ -3,13 +3,15 @@
 @section ('content')
     <title>wongus - create</title>
     <body class="singlePage">
-    <div class="subNavHeader">
-        <div id="subLogo">
-            <a class="link" href="/"><h1><b>wongus</b></h1></a>
-        </div>
-        <a class="button smallerButton" href="/blog"><p>Go back</p></a>
-        <div class="aboutSubject blogNavHeader"><p>Create a new article</p></div>
-    </div>
+    <nav class="navbar navbar-expand navbar-light bg-light p-0 neunav">
+        <a class="navbar-brand" id="subLogo" href="/" style="font-size: 4vh;"><b>wongus</b></a>
+        <p class="my-auto" style="color: #2F2F2F; font-family: 'Roboto'">Create a new article</p>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link mr-2" href="/blog" style="color: #2F2F2F; font-family: 'Roboto'">Go back</a>
+            </li>
+        </ul>
+    </nav>
     <div class="form">
     <form method="POST" action="/blog">
         @csrf

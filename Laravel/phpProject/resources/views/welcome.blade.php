@@ -2,7 +2,7 @@
 
 @section ('content')
     <title>wongus - portfolio</title>
-    <nav class="headernav fixed-top" style="height: 15vh;">
+    <nav class="headernav fixed-top" id="header" style="height: 15vh;">
         <div id="logo" class="text-center pb-3">
             <h1><b>wongus</b></h1>
         </div>

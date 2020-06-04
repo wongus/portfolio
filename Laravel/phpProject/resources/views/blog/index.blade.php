@@ -2,13 +2,15 @@
 
 @section ('content')
     <title>wongus - blog</title>
-    <div class="subNavHeader">
-        <div id="subLogo">
-            <a class="link" href="/"><h1><b>wongus</b></h1></a>
-        </div>
-        <a class="button smallerButton" href="/blog/create"><p>Create post</p></a>
-        <div class="aboutSubject blogNavHeader"><p>Recently published articles</p></div>
-    </div>
+    <nav class="navbar navbar-expand navbar-light bg-light p-0 neunav">
+        <a class="navbar-brand" id="subLogo" href="/" style="font-size: 4vh;"><b>wongus</b></a>
+        <p class="my-auto" style="color: #2F2F2F; font-family: 'Roboto'">Recently published articles</p>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link mr-2" href="/blog/create" style="color: #2F2F2F; font-family: 'Roboto'">Create post</a>
+            </li>
+        </ul>
+    </nav>
     <div class="singlePage">
         <div class="articlePreviews">
             @foreach ($posts as $post)

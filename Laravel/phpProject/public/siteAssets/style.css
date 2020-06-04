@@ -9,12 +9,14 @@ p {
 
 /* Track */
 ::-webkit-scrollbar-track {
+    z-index: 2;
     background-color: #EFEEEE;
     box-shadow: inset -0.4vh -0.4vh 1.3vh #FFFFFF, inset 0.4vh 0.9vh 1.3vh #D1CDC7;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
+    z-index: 2;
     background: #FFFFFF;
     box-shadow: -0.4vh -0.4vh 1.3vh #FFFFFF, 0.4vh 0.4vh 1.3vh #D1CDC7;
     border-radius: 5vh;
@@ -71,7 +73,7 @@ section h2 {
 }
 
 .subjectHeader {
-    padding-top: 50vh;
+    padding-top: 40vh;
     font-size: 8vw;
     color: #EFEEEE;
     text-shadow: -0.4vh -0.4vh 1.1vh #FFFFFF, 0.4vh 0.4vh 1.1vh #D1CDC7;

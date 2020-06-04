@@ -2,14 +2,19 @@
 
 @section ('content')
     <title>wongus - {{$post->title}}</title>
-    <div class="subNavHeader">
-        <div id="subLogo">
-            <a class="link" href="/"><h1><b>wongus</b></h1></a>
-        </div>
-        <a class="button smallerButton" href="/blog"><p>Go back</p></a>
-        <a class="button smallerButton" href="/blog/{{$post->slug}}/edit"><p>Edit post</p></a>
-    </div>
-    <div class="subject singlePageElement">
+    <nav class="navbar navbar-expand navbar-light bg-light p-0 neunav">
+        <a class="navbar-brand" id="subLogo" href="/" style="font-size: 4vh;"><b>wongus</b></a>
+        <p class="my-auto" style="color: #2F2F2F; font-family: 'Roboto'">Create a new article</p>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link mr-2" href="/blog" style="color: #2F2F2F; font-family: 'Roboto'">Go back</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-2" href="/blog/{{$post->slug}}/edit" style="color: #2F2F2F; font-family: 'Roboto'">Edit post</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="text-center subject singlePageElement">
         <h1 class="subjectHeader singlePageElement">{{ $post->title }}</h1>
         <pre class="aboutSubject">{{ $post->body }}</pre>
     </div>
