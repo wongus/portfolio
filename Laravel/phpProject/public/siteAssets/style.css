@@ -58,6 +58,33 @@ section h2 {
     z-index: 1;
 }
 
+.login-overlay {
+    z-index: 1;
+    color: #EFEEEE;
+    filter: drop-shadow(0.4vh 0.4vh 1.3vh #D1CDC7);
+    bottom: -15vh;
+    left: -20vh;
+    font-size: 40vh;
+}
+
+.cloud-link {
+    z-index: 2;
+    left: 5vh;
+    font-size: 1.7vh;
+    color: #2F2F2F;
+    bottom: 9vh;
+    font-weight: bold;
+}
+
+.cloud-link:hover {
+    text-decoration: none;
+    color: #2F2F2F;
+}
+
+.register {
+    bottom: 4vh;
+}
+
 .greeting {
     font-family: 'Montserrat';
     color: #EFEEEE;

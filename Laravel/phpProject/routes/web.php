@@ -25,6 +25,8 @@ Route::get('/blog', function() {
 Route::resource('/blog', 'PostsController');
 //</editor-fold>
 
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
+
 //<editor-fold desc="Dashboard-routes">
 Route::get('/dashboard/{grade}/edit', 'GradesController@edit');
 Route::put('/dashboard/{grade}', 'GradesController@update');
@@ -38,3 +40,7 @@ Route::get('/dashboard/course/{detail}/edit', 'DetailsController@edit');
 Route::put('/dashboard/{detail}', 'GradesController@update');
 Route::delete('/dashboard/course/{detail}', 'DetailsController@delete');
 //</editor-fold>
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

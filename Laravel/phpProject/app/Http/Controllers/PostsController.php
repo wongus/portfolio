@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 use DB;
 use App\Post;
+use Illuminate\Http\Request;
 use Illuminate\Support\Str as str;
 
 class PostsController
@@ -33,7 +34,12 @@ class PostsController
         $post->save();
     }
 
-    public function store() {
+    public function store(Request $request) {
+        $validateData = $request->validate([
+            'title' => 'required|unique:posts|max:50',
+            'body' => 'required',
+        ]);
+
         $post = new Post;
         $this->savePostToDB($post);
 
@@ -45,13 +51,18 @@ class PostsController
         return view('blog.edit', ['post' => $post]);
     }
 
-    public function delete($slug) {
+    public function destroy($slug) {
         $post = Post::where('slug', $slug)->firstOrFail();
         $post->delete();
         return redirect('/blog');
     }
 
-    public function update($slug) {
+    public function update($slug, Request $request) {
+        $validateData = $request->validate([
+            'title' => 'required|unique:posts|max:50',
+            'body' => 'required',
+        ]);
+
         $post = Post::where('slug', $slug)->firstOrFail();
         $this->savePostToDB($post);
         return redirect('blog/' . $post->slug);

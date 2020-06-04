@@ -9,7 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
     <link rel='shortcut icon' href='/siteAssets/favicon.ico' type='image/x-icon'/>
+    <script src="https://kit.fontawesome.com/5b65a26ca8.js" crossorigin="anonymous"></script>
 </head>
 <body>
 @yield ('content')

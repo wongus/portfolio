@@ -1,4 +1,4 @@
-@extends ('layout')
+@extends ('layouts.layout')
 
 @section ('content')
     <title>wongus - create</title>
@@ -13,27 +13,34 @@
         </ul>
     </nav>
     <div class="form">
-    <form method="POST" action="/blog">
-        @csrf
-        <div>
-            <label for="title">Title</label>
-            <div>
-                <input type="text" name="title" id="title">
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
             </div>
-        </div>
+        @endif
+        <form method="POST" action="/blog">
+            @csrf
+            <div>
+                <label for="title">Title</label>
+                <div>
+                    <input type="text" name="title" id="title">
+                </div>
+            </div>
 
-        <div>
-            <label for="Body">Body</label>
             <div>
-                <textarea name="body" cols="40" row="5" id="body"></textarea>
+                <label for="Body">Body</label>
+                <div>
+                    <textarea name="body" cols="30" row="5" id="body"></textarea>
+                </div>
             </div>
-        </div>
 
-        <div>
             <div>
-                <button type="submit">Submit</button>
+                <button class="btn smallerButton" type="submit">Submit</button>
             </div>
-        </div>
-    </form>
+        </form>
     </div>
 @endsection

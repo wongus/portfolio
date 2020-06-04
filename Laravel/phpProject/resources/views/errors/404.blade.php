@@ -1,4 +1,4 @@
-@extends ('layout')
+@extends ('layouts.layout')
 @section ('content')
 
     <div class="subject" style="padding-top: 0px;">

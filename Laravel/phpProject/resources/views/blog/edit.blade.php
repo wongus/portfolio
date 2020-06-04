@@ -1,4 +1,4 @@
-@extends ('layout')
+@extends ('layouts.layout')
 
 @section ('content')
     <title>wongus - edit</title>
@@ -13,6 +13,15 @@
         </ul>
     </nav>
     <div class="form">
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
         <form method="POST" action="/blog/{{$post->slug}}">
             @csrf
             @method('PUT')
@@ -30,7 +39,7 @@
                 </div>
             </div>
             <div class="formButtons">
-                <button type="submit">Submit</button>
+                <button class="btn smallerButton" type="submit">Submit</button>
             </div>
         </form>
         <form method="POST" action="/blog/{{$post->slug}}">
@@ -39,7 +48,7 @@
 
             <div>
                 <div>
-                    <button type="delete">Delete</button>
+                    <button class="btn smallerButton" type="delete">Delete</button>
                 </div>
             </div>
         </form>
