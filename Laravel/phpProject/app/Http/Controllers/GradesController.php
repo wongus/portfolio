@@ -4,11 +4,9 @@ namespace App\Http\Controllers;
 
 use DB;
 use App\Grade;
-use Illuminate\Support\Str as str;
-
 use Illuminate\Http\Request;
 
-class GradesController extends Controller
+class GradesController
 {
 
     public function index()
@@ -28,17 +26,16 @@ class GradesController extends Controller
         return view('dashboard.create');
     }
 
-    public function saveGradeToDB($grade)
+    public function store(Request $request)
     {
-        $grade->course = request('course');
-        $grade->EC = request('ec');
-        $grade->save();
-    }
+        $validateData = $request->validate([
+            'course' => 'required|unique:grades',
+            'EC' => 'numeric|required',
+        ]);
 
-    public function store()
-    {
         $grade = new Grade;
         $this->saveGradeToDB($grade);
+
         return redirect('/dashboard');
     }
 
@@ -55,10 +52,22 @@ class GradesController extends Controller
         return redirect('/dashboard');
     }
 
-    public function update($id)
+    public function update($id, Request $request)
     {
+        $validateData = $request->validate([
+            'course' => 'required|unique:grades',
+            'EC' => 'numeric|required',
+        ]);
+
         $grade = Grade::where('id', $id)->firstOrFail();
         $this->saveGradeToDB($grade);
         return redirect('/dashboard/' . $grade->id);
+    }
+
+    public function saveGradeToDB($grade)
+    {
+        $grade->course = request('course');
+        $grade->EC = request('EC');
+        $grade->save();
     }
 }

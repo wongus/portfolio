@@ -107,6 +107,16 @@ section h2 {
     font-weight: bold;
 }
 
+.error-link a {
+    color: #D1CDC7 !important;
+    text-shadow: 0.5vh 0.5vh 0.7vh #FFFFFF !important;
+}
+
+.error-link a:hover {
+    border-bottom: 2.5px #ECB488 solid;
+    text-decoration: none;
+}
+
 .aboutSubject {
     margin-top: 2vh;
     color: #D1CDC7;
@@ -129,6 +139,10 @@ section h2 {
     box-shadow: -0.4vh -0.4vh 1.3vh #FFFFFF, 0.4vh 0.4vh 1.3vh #D1CDC7;
     text-shadow: 0.4vh 0.4vh 0.5vh #FFFFFF;
     white-space: nowrap;
+}
+
+.btn:focus .btn.focus {
+    border: none;
 }
 
 .smallerButton {

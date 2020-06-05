@@ -3,13 +3,21 @@
 @section ('content')
     <title>wongus - dashboard details</title>
     <body class="singlePage">
-    <nav>
-        <div id="subLogo">
-            <a class="link" href="/"><h1><b>wongus</b></h1></a>
-        </div>
-        <a class="button smallerButton" href="/dashboard"><p>Go back</p></a>
-        <a class="button smallerButton" href="/dashboard/{{$grade->id}}/create"><p>Add test</p></a>
-        <div class="aboutSubject blogNavHeader"><p>{{$grade->course}}</p></div>
+    <nav class="navbar navbar-expand navbar-light bg-light p-0 neunav">
+        <a class="navbar-brand" id="subLogo" href="/" style="font-size: 4vh;"><b>wongus</b></a>
+        <p class="my-auto" style="color: #2F2F2F; font-family: 'Roboto'">{{$grade->course}}</p>
+        <ul class="navbar-nav ml-auto">
+            @guest
+            @else
+                <li class="nav-item">
+                    <a class="nav-link mr-2" href="/dashboard/{{$grade->id}}/create" style="color: #2F2F2F; font-family: 'Roboto'">Add
+                        test</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-2" href="/dashboard" style="color: #2F2F2F; font-family: 'Roboto'">Go back</a>
+                </li>
+            @endguest
+        </ul>
     </nav>
     <div class="singlePage">
         <div class="articlePreviews">
@@ -26,16 +34,19 @@
                         <td>{{$detail->weighting}}</td>
                         <td>{{$detail->score}}</td>
                         <td>{{$detail->passed}}</td>
-                        <td class="iconRow">
-                            <div class="icons">
-                                <a href="/dashboard/course/{{$grade->id}}/edit"><p class="editIcon icon">✎</p></a>
-                                <form method="POST" action="/dashboard/course/{{$detail->id}}">
-                                    @csrf
-                                    @method('delete')
-                                    <button type="icon"><p class="deleteIcon icon">✖</p></button>
-                                </form>
-                            </div>
-                        </td>
+                        @guest
+                        @else
+                            <td class="iconRow">
+                                <div class="icons">
+                                    <a href="/dashboard/course/{{$grade->id}}/edit"><p class="editIcon icon">✎</p></a>
+                                    <form method="POST" action="/dashboard/course/{{$detail->id}}">
+                                        @csrf
+                                        @method('delete')
+                                        <button type="icon"><p class="deleteIcon icon">✖</p></button>
+                                    </form>
+                                </div>
+                            </td>
+                        @endguest
                     </tr>
 
                 @endforeach

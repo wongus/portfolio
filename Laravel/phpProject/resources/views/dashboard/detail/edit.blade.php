@@ -11,6 +11,15 @@
         <div class="aboutSubject blogNavHeader"><p>Add a new test</p></div>
     </div>
     <div class="form">
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
         <form method="POST" action="/dashboard/{{$detail->id}}">
             @csrf
             @method('PUT')
@@ -37,7 +46,7 @@
 
             <div>
                 <div>
-                    <button type="submit">Submit</button>
+                    <button class="btn smallerButton" type="submit">Submit</button>
                 </div>
             </div>
         </form>

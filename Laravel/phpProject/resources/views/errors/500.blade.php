@@ -2,10 +2,10 @@
 @section ('content')
 
     <div class="subject" style="padding-top: 30px;">
-        <h1 class="subjectHeader text-center" style="font-size: 30vh; padding-top: 40px;">404</h1>
+        <h1 class="subjectHeader text-center" style="font-size: 30vh; padding-top: 40px;">500</h1>
         <div class="aboutSubject">
             <div class="text-center">
-                Oops, looks like we couldn't find what you were looking for
+                Oops, looks like our servers had some trouble processing your request
             </div>
             <div class="text-center" style="padding-top: 10px;">
                 Maybe try these links instead..

@@ -2,12 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use DB;
 use App\Detail;
 use App\Grade;
 use Illuminate\Http\Request;
 
-class DetailsController extends Controller
+class DetailsController
 {
+    /**
+     * @param $id
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function show($id)
     {
         $grade = Grade::where('id', $id)->firstOrFail();
@@ -20,20 +25,14 @@ class DetailsController extends Controller
         return view('dashboard.detail.create', ['grade' => $grade]);
     }
 
-    public function saveDetailToDB($detail)
+    public function store($id, Request $request)
     {
-        $detail->test = request('test');
+        $validateData = $request->validate([
+            'test' => 'required',
+            'weighting' => 'numeric|required',
+            'score' => 'numeric|required',
+        ]);
 
-        $detail->weighting = request('weighting');
-        $detail->score = request('score');
-
-        $this->passCheck($detail);
-
-        $detail->save();
-    }
-
-    public function store($id)
-    {
         $detail = new Detail;
         $detail->course_id = $id;
         $this->saveDetailToDB($detail);
@@ -52,8 +51,14 @@ class DetailsController extends Controller
         $detail->delete();
     }
 
-    public function update($id)
+    public function update($id, Request $request)
     {
+        $validateData = $request->validate([
+            'test' => 'required',
+            'weighting' => 'numeric|required',
+            'score' => 'numeric|required',
+        ]);
+
         $detail = Detail::where('id', $id)->firstOrFail();
         $grade = $detail->grade;
         $this->saveDetailToDB($detail);
@@ -65,5 +70,17 @@ class DetailsController extends Controller
         if ($detail->score >= 5.5) {
             $detail->passed = 1;
         }
+    }
+
+    public function saveDetailToDB($detail)
+    {
+        $detail->test = request('test');
+
+        $detail->weighting = request('weighting');
+        $detail->score = request('score');
+
+        $this->passCheck($detail);
+
+        $detail->save();
     }
 }

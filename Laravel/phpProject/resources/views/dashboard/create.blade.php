@@ -13,25 +13,34 @@
         </ul>
     </nav>
     <div class="form">
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
         <form method="POST" action="/dashboard">
             @csrf
             <div>
                 <label for="course">Course</label>
                 <div>
-                    <input type="text" name="course" id="course">
+                    <input type="text" name="course">
                 </div>
             </div>
 
             <div>
                 <label for="EC">EC</label>
                 <div>
-                    <input type="text" name="ec" id="course">
+                    <input type="text" name="EC">
                 </div>
             </div>
 
             <div>
                 <div>
-                    <button type="submit">Submit</button>
+                    <button class="btn smallerButton" type="submit">Submit</button>
                 </div>
             </div>
         </form>
