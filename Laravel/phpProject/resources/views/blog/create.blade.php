@@ -1,7 +1,7 @@
 @extends ('layouts.layout')
 
 @section ('content')
-    <title>wongus - create</title>
+    <title>wongus - create article</title>
     <body class="singlePage">
     <nav class="navbar navbar-expand navbar-light bg-light p-0 neunav">
         <a class="navbar-brand" id="subLogo" href="/" style="font-size: 4vh;"><b>wongus</b></a>
@@ -12,35 +12,28 @@
             </li>
         </ul>
     </nav>
-    <div class="form">
-        @if ($errors->any())
-            <div class="alert alert-danger">
-                <ul>
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
-            </div>
-        @endif
-        <form method="POST" action="/blog">
-            @csrf
-            <div>
+    <div class="container text-center">
+        <form class="pt-5" method="POST" action="/blog">
+            <div class="form-group">
+                @csrf
                 <label for="title">Title</label>
-                <div>
-                    <input type="text" name="title" id="title">
-                </div>
+                <input class="form-control" type="text" name="title" id="title" placeholder="Enter article title">
+                @error ('title')
+                <small class="form-text text-danger">{{$message}}</small>
+                @enderror
             </div>
 
-            <div>
+            <div class="form-group pt-2">
                 <label for="Body">Body</label>
-                <div>
-                    <textarea name="body" cols="30" row="5" id="body"></textarea>
-                </div>
+                <textarea class="form-control" name="body" cols="30" row="5" id="body" placeholder="Enter article body"></textarea>
+                @error ('body')
+                <small class="form-text text-danger">
+                    {{$message}}
+                </small>
+                @enderror
             </div>
 
-            <div>
-                <button class="btn smallerButton" type="submit">Submit</button>
-            </div>
+            <button class="btn smallerButton" type="submit">Submit</button>
         </form>
     </div>
 @endsection

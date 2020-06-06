@@ -12,45 +12,38 @@
             </li>
         </ul>
     </nav>
-
-    <div class="form">
-        @if ($errors->any())
-            <div class="alert alert-danger">
-                <ul>
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
-            </div>
-        @endif
-        <form method="POST" action="/dashboard/{{$grade->id}}">
-            @csrf
-            <div>
-                <label for="test">Test</label>
-                <div>
-                    <input type="text" name="test" id="test">
-                </div>
+    <div class="container text-center">
+        <form class="pt-5" method="POST" action="/dashboard/{{$grade->id}}">
+            <div class="form-group">
+                @csrf
+                <label for="title">Test</label>
+                <input class="form-control" type="text" name="test" placeholder="Enter test name">
+                @error ('test')
+                <small class="form-text text-danger">{{$message}}</small>
+                @enderror
             </div>
 
-            <div>
-                <label for="weighting">Weighting</label>
-                <div>
-                    <input type="text" name="weighting" id="weighting">
-                </div>
+            <div class="form-group pt-2">
+                <label for="Body">Weighting (%)</label>
+                <input class="form-control" name="weighting" placeholder="Enter test weighting">
+                @error ('weighting')
+                <small class="form-text text-danger">
+                    {{$message}}
+                </small>
+                @enderror
             </div>
 
-            <div>
-                <label for="score">Score</label>
-                <div>
-                    <input type="text" name="score" id="score">
-                </div>
+            <div class="form-group pt-2">
+                <label for="Body">Score</label>
+                <input class="form-control" name="score" placeholder="Enter achieved grade">
+                @error ('score')
+                <small class="form-text text-danger">
+                    {{$message}}
+                </small>
+                @enderror
             </div>
 
-            <div>
-                <div>
-                    <button class="btn smallerButton" type="submit">Submit</button>
-                </div>
-            </div>
+            <button class="btn smallerButton" type="submit">Submit</button>
         </form>
     </div>
 @endsection

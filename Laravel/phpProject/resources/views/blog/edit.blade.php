@@ -12,45 +12,40 @@
             </li>
         </ul>
     </nav>
-    <div class="form">
-        @if ($errors->any())
-            <div class="alert alert-danger">
-                <ul>
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
-            </div>
-        @endif
-        <form method="POST" action="/blog/{{$post->slug}}">
-            @csrf
-            @method('PUT')
-            <div>
-                <label for="title">Title</label>
-                <div>
-                    <input type="text" name="title" id="title" value="{{$post->title}}">
-                </div>
-            </div>
+            <div class="container text-center">
+                <form class="pt-5" method="POST" action="/blog/{{$post->slug}}">
+                    @csrf
+                    @method('PUT')
+                    <div class="form-group">
+                        <label for="title">Title</label>
+                        <input class="form-control" type="text" name="title" id="title" value="{{$post->title}}">
+                        @error ('title')
+                        <small class="form-text text-danger">{{$message}}</small>
+                        @enderror
+                    </div>
 
-            <div class="textarea">
-                <label for="Body">Body</label>
-                <div>
-                    <textarea name="body" cols="40" row="5" id="body">{{$post->body}}</textarea>
-                </div>
-            </div>
-            <div class="formButtons">
-                <button class="btn smallerButton" type="submit">Submit</button>
-            </div>
-        </form>
-        <form method="POST" action="/blog/{{$post->slug}}">
-            @csrf
-            @method('delete')
+                    <div class="form-group pt-2">
+                        <label for="Body">Body</label>
+                        <textarea class="form-control" name="body" cols="30" row="5" id="body">{{$post->body}}</textarea>
+                        @error ('body')
+                        <small class="form-text text-danger">
+                            {{$message}}
+                        </small>
+                        @enderror
+                    </div>
 
-            <div>
-                <div>
-                    <button class="btn smallerButton" type="delete">Delete</button>
-                </div>
+                    <button class="btn smallerButton" type="submit">Submit</button>
+                </form>
+                <form method="POST" action="/blog/{{$post->slug}}">
+                    @csrf
+                    @method('delete')
+
+                    <div>
+                        <div>
+                            <button class="btn smallerButton" type="delete">Delete</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-        </form>
     </body>
 @endsection

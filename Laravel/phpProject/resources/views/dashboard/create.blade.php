@@ -12,37 +12,29 @@
             </li>
         </ul>
     </nav>
-    <div class="form">
-        @if ($errors->any())
-            <div class="alert alert-danger">
-                <ul>
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
-            </div>
-        @endif
-        <form method="POST" action="/dashboard">
-            @csrf
-            <div>
-                <label for="course">Course</label>
-                <div>
-                    <input type="text" name="course">
-                </div>
+    <div class="container text-center">
+        <form class="pt-5" method="POST" action="/dashboard">
+            <div class="form-group">
+                @csrf
+                <label for="title">Course</label>
+                <input class="form-control" type="text" name="course" placeholder="Enter course name">
+                @error ('course')
+                <small class="form-text text-danger">{{$message}}</small>
+                @enderror
             </div>
 
-            <div>
-                <label for="EC">EC</label>
-                <div>
-                    <input type="text" name="EC">
-                </div>
+            <div class="form-group pt-2">
+                <label for="Body">EC</label>
+                <input class="form-control" name="EC" placeholder="Enter course EC">
+                @error ('EC')
+                <small class="form-text text-danger">
+                    {{$message = 'EC must be a number'}}
+                </small>
+                @enderror
             </div>
 
-            <div>
-                <div>
-                    <button class="btn smallerButton" type="submit">Submit</button>
-                </div>
-            </div>
+            <button class="btn smallerButton" type="submit">Submit</button>
         </form>
     </div>
+
 @endsection

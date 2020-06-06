@@ -15,15 +15,6 @@
             <div class="selected"></div>
         </ul>
     </nav>
-    @guest
-    <i class="fas fa-cloud login-overlay fixed-bottom"></i>
-    <a href="/login" class="position-absolute cloud-link">
-        <p>login</p>
-    </a>
-    <a href="/register" class="position-absolute register cloud-link">
-        <p>register</p>
-    </a>
-    @endguest
     <div class="container-fluid text-center">
         <section class="subject1" id="subject1">
             <p class="subjectHeader font-weight-light" style="padding-top: 20vh; font-size: 20vh;">Hello!</p>

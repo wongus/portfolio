@@ -12,37 +12,30 @@
             </li>
         </ul>
     </nav>
-    <div class="form">
-        @if ($errors->any())
-            <div class="alert alert-danger">
-                <ul>
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
-            </div>
-        @endif
-        <form method="POST" action="/dashboard/{{$grade->id}}">
+    <div class="container text-center">
+        <form class="pt-5" method="POST" action="/dashboard/{{$grade->id}}">
             @csrf
             @method('PUT')
-            <div>
-                <label for="course">Course</label>
-                <div>
-                    <input type="text" name="course" id="course" value="{{$grade->course}}">
-                </div>
+            <div class="form-group">
+                @csrf
+                <label for="title">Course</label>
+                <input class="form-control" type="text" name="course" value="{{$grade->course}}">
+                @error ('course')
+                <small class="form-text text-danger">{{$message}}</small>
+                @enderror
             </div>
 
-            <div>
-                <label for="EC">EC</label>
-                <div>
-                    <input type="text" name="ec" id="ec" value="{{$grade->ec}}">
-                </div>
+            <div class="form-group pt-2">
+                <label for="Body">EC</label>
+                <input class="form-control" name="EC" value="{{$grade->ec}}">
+                @error ('EC')
+                <small class="form-text text-danger">
+                    {{$message = 'EC must be a number'}}
+                </small>
+                @enderror
             </div>
 
-            <div>
-                <div>
-                    <button class="btn smallerButton" type="submit">Submit</button>
-                </div>
-            </div>
+            <button class="btn smallerButton" type="submit">Submit</button>
         </form>
+    </div>
 @endsection

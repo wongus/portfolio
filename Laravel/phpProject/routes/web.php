@@ -41,6 +41,5 @@ Route::put('/dashboard/{detail}', 'GradesController@update');
 Route::delete('/dashboard/course/{detail}', 'DetailsController@delete');
 //</editor-fold>
 
-Auth::routes();
-
+Auth::routes(['register' => false]);
 Route::get('/home', 'HomeController@index')->name('home');

@@ -42,7 +42,7 @@
                                     <form method="POST" action="/dashboard/course/{{$detail->id}}">
                                         @csrf
                                         @method('delete')
-                                        <button type="icon"><p class="deleteIcon icon">✖</p></button>
+                                        <button style="all: unset;" type="icon"><p class="deleteIcon icon">✖</p></button>
                                     </form>
                                 </div>
                             </td>

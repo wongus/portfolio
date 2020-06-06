@@ -141,10 +141,6 @@ section h2 {
     white-space: nowrap;
 }
 
-.btn:focus .btn.focus {
-    border: none;
-}
-
 .smallerButton {
     font-size: 2vh;
     padding: 0.7%;
@@ -213,36 +209,34 @@ img {
 
 input {
     font-family: 'Roboto';
-    margin-top: 1vh;
-    margin-bottom: 5vh;
-    width: 35%;
-    height: 5vh;
-    padding-left: 0.4vw;
     box-sizing: border-box;
     border: 1px solid #D1CDC7;
-    border-radius: 4px;
-    background-color: #EFEEEE;
+    background-color: #EFEEEE !important;
     box-shadow: inset 0.4vh 0.4vh 0.3vh #D1CDC7
+}
+
+button:focus,
+.btn:focus {
+    outline: none !important;
+    box-shadow: inset -0.4vh -0.4vh 1.3vh #FFFFFF, inset 0.4vh 0.9vh 1.3vh #D1CDC7 !important;
 }
 
 input:focus,
 select:focus,
 textarea:focus,
-button:focus {
-    outline: none;
+input:hover,
+select:hover,
+textarea:hover {
+    outline: none !important;
+    box-shadow: inset 0.4vh 0.4vh 0.3vh #D1CDC7 !important;
+    border: 1px solid #D1CDC7 !important;
 }
 
 textarea {
     font-family: 'Roboto';
-    margin-top: 1vh;
-    padding-left: 0.4vw;
-    width: 80%;
-    height: 5vh;
-    box-sizing: border-box;
     border: 1px solid #D1CDC7;
-    border-radius: 4px;
-    background-color: #EFEEEE;
-    box-shadow: inset 0.4vh 0.4vh 0.3vh #D1CDC7
+    background-color: #EFEEEE !important;
+    box-shadow: inset 0.4vh 0.4vh 0.3vh #D1CDC7;
 }
 
 table, td, tr, th {
@@ -315,19 +309,19 @@ button {
     font-weight: bold;
     padding: 0.5%;
     text-decoration: none;
-    box-shadow:0.1vh 0.1vh 1vh #D1CDC7;
+    box-shadow: 0.1vh 0.1vh 1vh #D1CDC7;
     text-shadow: 0.4vh 0.4vh 0.5vh #FFFFFF;
     white-space: nowrap;
 }
 
 button[type="icon"] {
     all: unset;
-    width:4vh;
+    width: 4vh;
 }
 
 button[type="icon"]:hover {
     all: unset;
-    width:4vh;
+    width: 4vh;
 }
 
 button:hover {
