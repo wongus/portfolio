@@ -7,8 +7,13 @@ use App\Detail;
 use App\Grade;
 use Illuminate\Http\Request;
 
-class DetailsController
+class DetailsController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth', ['only' => ['create', 'edit']]);
+    }
+
     /**
      * @param $id
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
@@ -19,12 +24,21 @@ class DetailsController
         return view('dashboard.show', ['details' => $grade->details, 'grade' => $grade]);
     }
 
+    /**
+     * @param $id
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function create($id)
     {
         $grade = Grade::where('id', $id)->firstOrFail();
         return view('dashboard.detail.create', ['grade' => $grade]);
     }
 
+    /**
+     * @param $id
+     * @param Request $request
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
     public function store($id, Request $request)
     {
         $validateData = $request->validate([
@@ -39,18 +53,30 @@ class DetailsController
         return redirect('/dashboard/course/'.$id);
     }
 
+    /**
+     * @param $id
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function edit($id)
     {
         $detail = Detail::where('id', $id)->firstOrFail();
         return view('dashboard.detail.edit', ['detail' => $detail]);
     }
 
+    /**
+     * @param $id
+     */
     public function delete($id)
     {
         $detail = Detail::where('id', $id)->firstOrFail();
         $detail->delete();
     }
 
+    /**
+     * @param $id
+     * @param Request $request
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
     public function update($id, Request $request)
     {
         $validateData = $request->validate([
@@ -65,6 +91,9 @@ class DetailsController
         return redirect('/dashboard/course/' . $grade->id);
     }
 
+    /**
+     * @param $detail
+     */
     public function passCheck($detail)
     {
         if ($detail->score >= 5.5) {
@@ -72,6 +101,9 @@ class DetailsController
         }
     }
 
+    /**
+     * @param $detail
+     */
     public function saveDetailToDB($detail)
     {
         $detail->test = request('test');
