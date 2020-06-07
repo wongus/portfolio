@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::get('/blog', function() {
@@ -39,10 +39,13 @@ Route::get('/dashboard/course/{detail}/edit', 'DetailsController@edit');
 Route::delete('/dashboard/course/{detail}', 'DetailsController@delete');
 //</editor-fold>
 
+//<editor-fold desc="login authentication">
 Auth::routes(['register' => false]);
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/complete-registration', 'Auth\RegisterController@completeRegistration');
+Route::post('/2fa', function () {
+    return redirect(URL()->previous());
+})->name('2fa')->middleware('2fa');
+//</editor-fold>
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
