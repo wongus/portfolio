@@ -1,43 +1,1286 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c225def6-b822-464f-b7fa-e4225409b4fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laravel/phpProject/resources/views/errors/500.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laravel/phpProject/app/Http/Controllers/DetailsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/phpProject/app/Http/Controllers/DetailsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laravel/phpProject/app/Http/Controllers/GradesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/phpProject/app/Http/Controllers/GradesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laravel/phpProject/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/phpProject/app/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laravel/phpProject/public/siteAssets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/phpProject/public/siteAssets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laravel/phpProject/resources/views/dashboard/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/phpProject/resources/views/dashboard/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laravel/phpProject/resources/views/dashboard/detail/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/phpProject/resources/views/dashboard/detail/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laravel/phpProject/resources/views/dashboard/detail/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/phpProject/resources/views/dashboard/detail/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laravel/phpProject/resources/views/dashboard/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/phpProject/resources/views/dashboard/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laravel/phpProject/resources/views/dashboard/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/phpProject/resources/views/dashboard/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laravel/phpProject/resources/views/dashboard/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/phpProject/resources/views/dashboard/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laravel/phpProject/resources/views/errors/404.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Laravel/phpProject/resources/views/errors/404.blade.php" afterDir="false" />
+    <list default="true" id="5791bb92-3070-4b51-91e9-0c360f140e5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Laravel/.idea/Laravel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/.idea/phpProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/.rnd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Detail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Grade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Controllers/DetailsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Controllers/GradesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Controllers/PostsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/google2fa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/passport.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/database/migrations/2020_02_04_081437_create_posts_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/database/migrations/2020_02_04_142329_create_grades_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/database/migrations/2020_02_13_102649_create_details_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/database/migrations/2020_06_07_174046_add_google2fa_column_to_users.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/.idea/public.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/assets/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/assets/fonts/Undertale.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/assets/images/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/assets/images/choiceBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/assets/images/choiceBoxHover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/assets/images/miniAd2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/assets/images/miniAd2Mouth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/assets/images/speechBubble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/assets/images/titleScreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/assets/music/mainTheme.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/build/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/build/app.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/meetingoldfriends.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/mix-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/siteAssets/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/siteAssets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/siteAssets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/js/components/Example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/js/components/passport/AuthorizedClients.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/js/components/passport/Clients.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/js/components/passport/PersonalAccessTokens.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/auth/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/auth/passwords/email.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/auth/passwords/reset.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/auth/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/auth/verify.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/blog/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/blog/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/blog/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/blog/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/dashboard/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/dashboard/detail/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/dashboard/detail/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/dashboard/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/dashboard/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/dashboard/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/errors/404.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/errors/500.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/google2fa/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/google2fa/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/resources/views/layouts/layout.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/tests/Feature/UserTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/tests/Unit/UserTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/phpProject/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/.idea/prototype.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/Feedbackformulier.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/License.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/Useful_Resources.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/addons/datatables-select.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/addons/datatables-select.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/addons/datatables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/addons/datatables.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/addons/directives.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/addons/directives.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/addons/flag.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/addons/flag.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/addons/jquery.zmd.hierarchical-display.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/addons/jquery.zmd.hierarchical-display.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/addons/rating.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/addons/rating.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/mdb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/mdb.lite.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/mdb.lite.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/mdb.lite.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/mdb.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/mdb.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/modules/animations-extended.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/modules/animations-extended.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/img/mdb-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/img/overlays/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/img/overlays/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/img/overlays/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/img/overlays/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/img/overlays/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/img/overlays/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/img/overlays/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/img/overlays/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/img/overlays/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/img/svg/arrow_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/img/svg/arrow_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/datatables-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/datatables-select.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/datatables.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/directives.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/directives.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/flag.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/flag.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/imagesloaded.pkgd.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/jquery.zmd.hierarchical-display.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/jquery.zmd.hierarchical-display.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/masonry.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/masonry.pkgd.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/rating.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/addons/rating.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/mdb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/mdb.lite.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/mdb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/mdb.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/modules/animations-extended.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/modules/animations-extended.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/modules/forms-free.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/modules/forms-free.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/modules/scrolling-navbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/modules/scrolling-navbar.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/modules/treeview.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/modules/treeview.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/modules/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/modules/wow.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/_custom-styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/_custom-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/addons/_datatables-select.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/addons/_datatables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/addons/_directives.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/addons/_flag.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/addons/_hierarchical-display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/addons/_rating.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/core/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/core/_global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/core/_helpers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/core/_masks.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/core/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/core/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/core/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/core/_waves.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/core/bootstrap/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/core/bootstrap/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/core/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_animations-basic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_carousels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_depreciated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_footers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_loader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_msc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_navbars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_steppers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/_treeview.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/modules/animations-extended/_module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/free/modules/animations-extended/animations-extended.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/mdb-free.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/scss/mdb-lite-free.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/free/forms-free.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/free/scrolling-navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/free/treeview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/free/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/vendor/addons/datatables-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/vendor/addons/datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/vendor/addons/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/vendor/addons/jquery.zmd.hierarchical-display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/vendor/addons/masonry.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/vendor/addons/rating.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/vendor/free/bs-custom-file-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/vendor/free/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/vendor/free/chartjs-datalabels.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/vendor/free/enhanced-modals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/vendor/free/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/vendor/free/velocity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/MDB/src/js/vendor/free/waves.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/curve.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/curve2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/afghanistan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/african central republic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/albania.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/algeria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/andorra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/antigua and barbuda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/argentina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/armenia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/australia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/austria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/azerbaijan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/bahamas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/bahrain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/bangladesh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/barbados.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/belarus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/belgium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/belize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/benin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/bhutan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/bolivia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/bosnia and herzegovina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/botswana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/brazil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/brunei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/bulgaria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/burkina faso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/burundi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/cambodia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/cameroon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/canada.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/cape verde.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/chad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/chile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/china.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/city vatican.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/colombia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/comoros.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/congo democratic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/costa rica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/cote divoire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/croatia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/cuba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/cyprus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/czech republic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/denmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/djibouti.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/dominica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/dominican republic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/ecuador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/egypt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/el salvador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/equatorial guinea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/eritrea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/estonia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/ethiopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/federated micronesia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/fiji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/finland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/france.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/gabon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/gambia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/georgia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/germany.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/ghana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/greece.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/grenada.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/guatemala.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/guinea bissau.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/guinea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/guyana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/haiti.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/honduras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/hungary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/iceland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/india.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/indonesia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/iran.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/iraq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/ireland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/israel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/italy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/jamaica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/japan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/jordan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/kazakhstan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/kenya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/kiribati.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/kosovo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/kuwait.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/kyrgyzstan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/laos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/latvia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/lebanon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/leone sierra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/lesotho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/liberia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/libya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/liechtenstein.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/lithuania.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/lucia saint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/luxembourg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/macedonia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/madagascar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/malawi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/malaysia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/maldives.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/mali.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/malta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/marshall islands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/mauritania.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/mauritius.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/mexico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/moldova.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/monaco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/mongolia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/montenegro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/morocco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/mozambique.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/myanmar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/namibia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/nauru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/nepal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/new zealand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/nicaragua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/niger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/nigeria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/north korea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/norway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/oman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/pakistan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/palau.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/panama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/papua new guinea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/paraguay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/peru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/philippines.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/poland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/protugal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/qatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/republic of the congo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/romania.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/russia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/rwanda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/saint kitts and nevis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/saint vincent and the grenadines.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/samoa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/san marino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/saudi arabia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/senegal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/serbia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/seychelles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/singapore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/slovakia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/slovenia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/solomon islands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/somalia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/south africa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/south korea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/south sudan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/spain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/sri lanka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/sudan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/suriname.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/swaziland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/sweden.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/switzerland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/syria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/são tomé and príncipe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/taiwan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/tajikistan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/tanzania.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/thailand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/the netherlands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/timor east.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/tobago and trinidad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/togo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/tonga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/tunisia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/turkey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/turkmenistan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/tuvalu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/uganda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/ukraine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/united arab emirates.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/united kingdom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/united states of america.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/uruguay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/uzbekistan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/vanuatu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/venezuela.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/vietnam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/yemen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/zambia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/PNG/70/zimbabwe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/flags/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/hamburgers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_3dx-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_3dx.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_3dxy-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_3dxy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_3dy-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_3dy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_arrow-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_arrow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_arrowalt-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_arrowalt.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_arrowturn-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_arrowturn.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_boring.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_collapse-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_collapse.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_elastic-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_elastic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_emphatic-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_emphatic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_minus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_slider-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_spin-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_spin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_spring-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_spring.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_squeeze.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_stand-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_stand.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_vortex-r.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/_sass/hamburgers/types/_vortex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/bs-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/config.postcss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/dist/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/dist/hamburgers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/dist/hamburgers.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/eyeglass-exports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/hamburgers.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/lib/hamburgers.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/lib/hamburgers/version.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/hamburgers/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/mix-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/prototype.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/resources/views/layout.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/resources/views/prototype.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/prototype/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.babelrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.github/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.github/ISSUE_TEMPLATE/bug.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.github/ISSUE_TEMPLATE/feature.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.github/SUPPORT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.github/workflows/test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.stylelintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/.stylelintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/build/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/build/banner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/build/build-plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/build/change-version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/build/generate-sri.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/build/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/build/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/build/ship.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/build/svgo.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/build/vnu-jar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/bundlesize.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/alert.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/button.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/carousel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/collapse.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/dropdown.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/modal.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/popover.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/scrollspy.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/tab.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/toast.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/tooltip.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/dist/util.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/tools/sanitizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/src/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/browsers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/integration/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/integration/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/integration/rollup.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/unit/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/unit/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/unit/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/unit/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/unit/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/unit/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/unit/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/unit/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/unit/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/unit/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/unit/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/unit/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/unit/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/visual/alert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/visual/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/visual/carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/visual/collapse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/visual/dropdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/visual/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/visual/popover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/visual/scrollspy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/visual/tab.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/visual/toast.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/js/tests/visual/tooltip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/nuget/MyGet.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/nuget/bootstrap.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/nuget/bootstrap.sass.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_data/breakpoints.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_data/browser-bugs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_data/browser-features.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_data/colors.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_data/core-team.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_data/docs-versions.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_data/examples.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_data/grays.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_data/nav.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_data/theme-colors.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_data/translations.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/ads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/analytics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/bugify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/callout-danger-async-methods.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/callout-info-mediaqueries-breakpoints.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/callout-info-prefersreducedmotion.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/callout-warning-color-assistive-technologies.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/callout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/docs-navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/docs-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/favicons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/icons/bootstrap-stack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/icons/bootstrap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/icons/download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/icons/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/icons/import.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/icons/lightning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/icons/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/icons/opencollective.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/icons/placeholder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/icons/slack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/icons/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/scripts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/skippy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/social.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_includes/stylesheet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_layouts/docs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_layouts/examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/_layouts/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/about/brand.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/about/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/about/overview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/about/team.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/about/translations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/brand/bootstrap-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/brand/bootstrap-punchout.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/brand/bootstrap-social-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/brand/bootstrap-social.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/brand/bootstrap-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/css/docs.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/css/docs.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/bootstrap-themes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/bootstrap-themes@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/album.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/album@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/blog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/blog@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/carousel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/carousel@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/checkout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/checkout@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/cover@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/dashboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/dashboard@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/floating-labels.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/floating-labels@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/grid@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/jumbotron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/jumbotron@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/navbar-bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/navbar-bottom@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/navbar-fixed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/navbar-fixed@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/navbar-static.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/navbar-static@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/navbars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/navbars@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/offcanvas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/offcanvas@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/pricing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/pricing@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/product@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/sign-in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/sign-in@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/starter-template.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/starter-template@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/sticky-footer-navbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/sticky-footer-navbar@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/sticky-footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/examples/sticky-footer@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/mstile-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/mstile-310x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/mstile-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/mstile-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/js/docs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/js/src/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/js/src/ie-emulation-modes-warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/js/src/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/js/vendor/anchor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/js/vendor/bs-custom-file-input.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/js/vendor/clipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/js/vendor/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_ads.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_algolia.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_anchor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_brand.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_browser-bugs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_callouts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_clipboard-js.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_component-examples.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_masthead.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_placeholder-img.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_skippy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_syntax.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/assets/scss/docs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/browser-bugs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/alerts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/badge.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/breadcrumb.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/button-group.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/buttons.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/card.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/carousel.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/collapse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/dropdowns.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/forms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/input-group.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/jumbotron.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/list-group.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/media-object.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/modal.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/navbar.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/navs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/pagination.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/popovers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/progress.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/scrollspy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/spinners.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/toasts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/components/tooltips.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/content/code.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/content/figures.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/content/images.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/content/reboot.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/content/tables.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/content/typography.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/.stylelintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/album/album.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/album/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/blog/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/carousel/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/carousel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/checkout/form-validation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/checkout/form-validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/checkout/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/cover/cover.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/cover/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/dashboard/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/dashboard/dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/dashboard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/floating-labels/floating-labels.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/floating-labels/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/grid/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/grid/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/jumbotron/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/jumbotron/jumbotron.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/navbar-bottom/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/navbar-fixed/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/navbar-fixed/navbar-top-fixed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/navbar-static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/navbar-static/navbar-top.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/navbars/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/navbars/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/offcanvas/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/offcanvas/offcanvas.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/offcanvas/offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/pricing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/pricing/pricing.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/product/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/product/product.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/sign-in/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/sign-in/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/starter-template/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/starter-template/starter-template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/sticky-footer-navbar/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/sticky-footer-navbar/sticky-footer-navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/sticky-footer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/examples/sticky-footer/sticky-footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/extend/approach.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/extend/icons.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/getting-started/accessibility.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/getting-started/best-practices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/getting-started/browsers-devices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/getting-started/build-tools.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/getting-started/contents.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/getting-started/download.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/getting-started/introduction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/getting-started/javascript.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/getting-started/theming.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/getting-started/webpack.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/layout/grid.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/layout/overview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/layout/utilities-for-layout.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/migration.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/borders.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/clearfix.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/close-icon.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/colors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/display.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/embed.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/flex.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/float.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/image-replacement.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/overflow.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/position.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/screen-readers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/shadows.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/sizing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/spacing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/stretched-link.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/text.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/vertical-align.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/4.4/utilities/visibility.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/docs/versions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laravel/vendor/twbs/bootstrap/site/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/Laravel/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="$PROJECT_DIR$/Laravel/vendor/twbs/bootstrap" />
-      <path value="$PROJECT_DIR$/Laravel/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa-qrcode" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa-laravel" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/dasprid/enum" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1crZwJ0lN7ev6LTdIvQ0wWPTlLq" />
+  <component name="ProjectId" id="1cra0GuW1zC6ZT4dmK24EJxA812" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,13 +1288,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Laravel/phpProject/resources/views/errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wongus.github.io\Laravel\phpProject\resources\views\errors" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ruben.DESKTOP-R9S50JM\Documents\GitHub\wongus.github.io\Laravel\phpProject\resources\views" />
+      <recent name="C:\Users\Ruben.DESKTOP-R9S50JM\Documents\GitHub\wongus.github.io\Laravel\phpProject\resources\views\auth" />
+      <recent name="C:\Users\Ruben.DESKTOP-R9S50JM\Documents\GitHub\wongus.github.io\Laravel\phpProject\resources\views\layouts" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -59,27 +1305,58 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c225def6-b822-464f-b7fa-e4225409b4fe" name="Default Changelist" comment="" />
-      <created>1591288909655</created>
+      <changelist id="5791bb92-3070-4b51-91e9-0c360f140e5a" name="Default Changelist" comment="" />
+      <created>1591288940683</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1591288909655</updated>
-      <workItem from="1591288911616" duration="27000" />
-      <workItem from="1591341159739" duration="12490000" />
+      <updated>1591288940683</updated>
+      <workItem from="1591288944344" duration="784000" />
+      <workItem from="1591290604009" duration="501000" />
+      <workItem from="1591291137104" duration="2436000" />
+      <workItem from="1591295112819" duration="7381000" />
+      <workItem from="1591454571226" duration="5354000" />
+      <workItem from="1591536873696" duration="5877000" />
+      <workItem from="1591544034769" duration="10714000" />
+      <workItem from="1591642188082" duration="90000" />
+      <workItem from="1591643727141" duration="846000" />
+      <workItem from="1591690761512" duration="4092000" />
+      <workItem from="1591701608193" duration="4073000" />
+      <workItem from="1591773296801" duration="2223000" />
+      <workItem from="1591782838190" duration="740000" />
+      <workItem from="1591783639506" duration="545000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591288937149">
+    <state x="709" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591782858278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591288937149" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591350255068">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="709" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591782858278" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591778438338">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591350255068" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591778438338" />
+    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1591552230594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591552230594" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1591299688469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591299688469" />
+    <state x="548" y="313" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1591540493353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="548" y="313" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591540493353" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591551758016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591551758016" />
   </component>
 </project>
