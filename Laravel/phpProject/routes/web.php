@@ -40,7 +40,7 @@ Route::delete('/dashboard/course/{detail}', 'DetailsController@delete');
 //</editor-fold>
 
 //<editor-fold desc="login authentication">
-Auth::routes(['register' => false]);
+Auth::routes();
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/complete-registration', 'Auth\RegisterController@completeRegistration');

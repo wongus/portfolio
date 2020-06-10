@@ -108,23 +108,26 @@ section h2 {
 }
 
 .error-link a {
-    color: #D1CDC7 !important;
-    text-shadow: 0.5vh 0.5vh 0.7vh #FFFFFF !important;
+    background-color: #D1CDC7;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+    -webkit-background-clip: text;
 }
 
 .error-link a:hover {
-    border-bottom: 2.5px #ECB488 solid;
+    border-bottom: 2px #ECB488 solid;
     text-decoration: none;
 }
 
 .aboutSubject {
     margin-top: 2vh;
-    color: #D1CDC7;
-    text-shadow: 0.5vh 0.5vh 0.7vh #FFFFFF;
     font-size: 2vh;
     font-weight: bold;
-    background-color: transparent;
     padding-bottom: 20vh;
+    background-color: #D1CDC7;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+    -webkit-background-clip: text;
 }
 
 .button {

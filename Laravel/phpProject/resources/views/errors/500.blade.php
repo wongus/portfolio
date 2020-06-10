@@ -8,7 +8,7 @@
                 Oops, looks like our servers had some trouble processing your request
             </div>
             <div class="text-center" style="padding-top: 10px;">
-                Maybe try these links instead..
+                Maybe try one of these links instead..
             </div>
             <div class="container-fluid">
                 <div class="row pt-5 justify-content-center">
