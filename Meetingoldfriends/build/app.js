@@ -329,11 +329,11 @@ class Game {
         for (let i = 0; i < lines.length; i++) {
             this.writeTextToCanvas(lines[i], 30, this.questionInfo.xPos, this.questionInfo.yPos + (i * lineheight), 'start', "rgb(69,66,63)");
             if (this.frameCounter > 0 && this.frameCounter < 10 || this.frameCounter > 20 && this.frameCounter < 30 || this.frameCounter > 40 && this.frameCounter < 50) {
-                const characterImageOpenMouth = "./assets/images/miniAd2Mouth.png";
+                const characterImageOpenMouth = "./Meetingoldfriends/assets/images/miniAd2Mouth.png";
                 this.loadImage(characterImageOpenMouth, this.characterPosition);
             }
             else {
-                const characterImage = "./assets/images/miniAd2.png";
+                const characterImage = "./Meetingoldfriends/assets/images/miniAd2.png";
                 this.loadImage(characterImage, this.characterPosition);
             }
         }
@@ -341,7 +341,7 @@ class Game {
     }
     ;
     titleScreen() {
-        const Button = "./assets/images/button.png";
+        const Button = "./Meetingoldfriends/assets/images/button.png";
         this.loadImage(Button, this.writeButtonToStartScreen);
         this.writeTextToCanvas("Meeting old", 140, this.canvas.width / 2, 175);
         this.writeTextToCanvas("\"friends\"", 140, this.canvas.width / 2, 300);
@@ -349,11 +349,11 @@ class Game {
     }
     ;
     levelScreen() {
-        const characterImage = "./assets/images/miniAd2.png";
+        const characterImage = "./Meetingoldfriends/assets/images/miniAd2.png";
         this.loadImage(characterImage, this.characterPosition);
-        const speechBubble = "./assets/images/speechBubble.png";
+        const speechBubble = "./Meetingoldfriends/assets/images/speechBubble.png";
         this.loadImage(speechBubble, this.speechBubblePosition);
-        const choiceBox = "./assets/images/choiceBox.png";
+        const choiceBox = "./Meetingoldfriends/assets/images/choiceBox.png";
         this.loadImage(choiceBox, this.choiceBoxPosition);
         this.currentScreen = "levelScreen";
         if (this.inLoop == false) {
