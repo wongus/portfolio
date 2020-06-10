@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5791bb92-3070-4b51-91e9-0c360f140e5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +133,6 @@
       <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa" />
       <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
       <path value="$PROJECT_DIR$/vendor/dasprid/enum" />
-      <path value="$PROJECT_DIR$/vendor/calcinai/php-imagick" />
     </include_path>
   </component>
   <component name="ProjectId" id="1cra0GuW1zC6ZT4dmK24EJxA812" />
@@ -180,7 +182,7 @@
       <workItem from="1591773296801" duration="2223000" />
       <workItem from="1591782838190" duration="740000" />
       <workItem from="1591783639506" duration="545000" />
-      <workItem from="1591786408566" duration="10279000" />
+      <workItem from="1591786408566" duration="10934000" />
     </task>
     <servers />
   </component>
