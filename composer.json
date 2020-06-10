@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.2",
         "bacon/bacon-qr-code": "^2.0",
+        "calcinai/php-imagick": "^0.1.2",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.2",
         "laravel/passport": "^9.2",

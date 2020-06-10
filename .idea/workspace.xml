@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5791bb92-3070-4b51-91e9-0c360f140e5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +129,7 @@
       <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa-laravel" />
       <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa" />
       <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/dasprid/enum" />
     </include_path>
   </component>
   <component name="ProjectId" id="1cra0GuW1zC6ZT4dmK24EJxA812" />
@@ -179,7 +179,7 @@
       <workItem from="1591773296801" duration="2223000" />
       <workItem from="1591782838190" duration="740000" />
       <workItem from="1591783639506" duration="545000" />
-      <workItem from="1591786408566" duration="9646000" />
+      <workItem from="1591786408566" duration="9953000" />
     </task>
     <servers />
   </component>
