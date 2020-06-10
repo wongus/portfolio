@@ -48,7 +48,7 @@
         <section class="subject5" id="subject5">
             <h1 class="subjectHeader">Meeting Old "Friends"</h1>
             <br>
-            <a class="btn button" href="./meetingoldfriends.html" target="_blank">
+            <a class="btn button" href="/Meetingoldfriends/meetingoldfriends.html" target="_blank">
                 <p>Open in new tab</p>
             </a>
             <div class="aboutSubject text-center">
