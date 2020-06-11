@@ -15,15 +15,8 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/blog', function() {
-    abort('500');
-//    return view('blog', [
-//    'posts' => App\Post::take(4)->latest()->get()
-//    ]);
-});
-
 //<editor-fold desc="Blog-routes">
-//Route::resource('/blog', 'PostsController');
+Route::resource('/blog', 'PostsController');
 //</editor-fold>
 
 //<editor-fold desc="Dashboard-routes">
