@@ -17,9 +17,9 @@ Route::get('/', function () {
 
 Route::get('/blog', function() {
     abort('500');
-    return view('blog', [
-    'posts' => App\Post::take(4)->latest()->get()
-    ]);
+//    return view('blog', [
+//    'posts' => App\Post::take(4)->latest()->get()
+//    ]);
 });
 
 //<editor-fold desc="Blog-routes">
