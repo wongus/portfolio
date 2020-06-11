@@ -18,7 +18,7 @@
     <div class="container-fluid text-center">
         <section class="subject1" id="subject1">
             <p class="subjectHeader font-weight-light" style="padding-top: 20vh; font-size: 20vh;">Hello!</p>
-            <p class="subjectHeader pt-0 font-weight-light" style="font-size: 20vh;">world.</p>
+            <p class="subjectHeader pt-0 font-weight-light" style="font-size: 20vh;">I'm wongus.</p>
         </section>
         <section class="subject2" id="subject2">
             <h1 class="subjectHeader">Who?</h1>
