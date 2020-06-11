@@ -43,7 +43,7 @@ Route::post('/2fa', function () {
 })->name('2fa')->middleware('2fa');
 //</editor-fold>
 
-Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware('can:manage-users')->group(function() {
+Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware(['can:manage-users', '2fa'])->group(function() {
     Route::resource('/users', 'UsersController', ['except' => ['show', 'create', 'store']]);
 });
 
