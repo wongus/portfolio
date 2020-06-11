@@ -23,7 +23,7 @@ Route::get('/blog', function() {
 });
 
 //<editor-fold desc="Blog-routes">
-Route::resource('/blog', 'PostsController');
+//Route::resource('/blog', 'PostsController');
 //</editor-fold>
 
 //<editor-fold desc="Dashboard-routes">
