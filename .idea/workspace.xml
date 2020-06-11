@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5791bb92-3070-4b51-91e9-0c360f140e5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/errors/403.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/alerts.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DetailsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DetailsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GradesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GradesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,17 +162,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/users" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ruben.DESKTOP-R9S50JM\Documents\GitHub\portfolio\resources\views\admin\users" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ruben.DESKTOP-R9S50JM\Documents\GitHub\portfolio\app\Http\Controllers\Admin" />
       <recent name="C:\Users\Ruben.DESKTOP-R9S50JM\Documents\GitHub\portfolio\public\Meetingoldfriends" />
       <recent name="C:\Users\Ruben.DESKTOP-R9S50JM\Documents\GitHub\portfolio\public" />
       <recent name="C:\Users\Ruben.DESKTOP-R9S50JM\Documents\GitHub\wongus.github.io\Laravel\phpProject\resources\views" />
       <recent name="C:\Users\Ruben.DESKTOP-R9S50JM\Documents\GitHub\wongus.github.io\Laravel\phpProject\resources\views\auth" />
-      <recent name="C:\Users\Ruben.DESKTOP-R9S50JM\Documents\GitHub\wongus.github.io\Laravel\phpProject\resources\views\layouts" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -181,7 +203,8 @@
       <workItem from="1591782838190" duration="740000" />
       <workItem from="1591783639506" duration="545000" />
       <workItem from="1591786408566" duration="11712000" />
-      <workItem from="1591860958777" duration="2598000" />
+      <workItem from="1591860958777" duration="9830000" />
+      <workItem from="1591892611030" duration="18763000" />
     </task>
     <servers />
   </component>
@@ -200,10 +223,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591778438338" />
-    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1591552230594">
+    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1591905028670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591552230594" />
+    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591905028670" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1591299688469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -212,10 +235,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="548" y="313" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591540493353" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591794602582">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591898470646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@-1920.0.1920.1040" timestamp="1591787329442" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591794602582" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591898470646" />
   </component>
 </project>

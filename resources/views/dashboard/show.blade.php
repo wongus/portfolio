@@ -7,16 +7,16 @@
         <a class="navbar-brand" id="subLogo" href="/" style="font-size: 4vh;"><b>wongus</b></a>
         <p class="my-auto" style="color: #2F2F2F; font-family: 'Roboto'">{{$grade->course}}</p>
         <ul class="navbar-nav ml-auto">
-            @guest
-            @else
+            @can('create-edit-content')
                 <li class="nav-item">
-                    <a class="nav-link mr-2" href="/dashboard/{{$grade->id}}/create" style="color: #2F2F2F; font-family: 'Roboto'">Add
+                    <a class="nav-link mr-2" href="/dashboard/{{$grade->id}}/create"
+                       style="color: #2F2F2F; font-family: 'Roboto'">Add
                         test</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link mr-2" href="/dashboard" style="color: #2F2F2F; font-family: 'Roboto'">Go back</a>
-                </li>
-            @endguest
+            @endcan
+            <li class="nav-item">
+                <a class="nav-link mr-2" href="/dashboard" style="color: #2F2F2F; font-family: 'Roboto'">Go back</a>
+            </li>
         </ul>
     </nav>
     <div class="singlePage">
@@ -34,19 +34,19 @@
                         <td>{{$detail->weighting}}</td>
                         <td>{{$detail->score}}</td>
                         <td>{{$detail->passed}}</td>
-                        @guest
-                        @else
+                        @can('create-edit-content')
                             <td class="iconRow">
                                 <div class="icons">
                                     <a href="/dashboard/course/{{$grade->id}}/edit"><p class="editIcon icon">✎</p></a>
                                     <form method="POST" action="/dashboard/course/{{$detail->id}}">
                                         @csrf
                                         @method('delete')
-                                        <button style="all: unset;" type="icon"><p class="deleteIcon icon">✖</p></button>
+                                        <button style="all: unset;" type="icon"><p class="deleteIcon icon">✖</p>
+                                        </button>
                                     </form>
                                 </div>
                             </td>
-                        @endguest
+                        @endcan
                     </tr>
 
                 @endforeach

@@ -7,13 +7,12 @@
         <a class="navbar-brand" id="subLogo" href="/" style="font-size: 4vh;"><b>wongus</b></a>
         <p class="my-auto" style="color: #2F2F2F; font-family: 'Roboto'">Dashboard</p>
         <ul class="navbar-nav ml-auto">
-            @guest
-            @else
+            @can('create-edit-content')
                 <li class="nav-item">
                     <a class="nav-link mr-2" href="/dashboard/create" style="color: #2F2F2F; font-family: 'Roboto'">Add
                         row</a>
                 </li>
-            @endguest
+            @endcan
         </ul>
     </nav>
     <div class="singlePage">

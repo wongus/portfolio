@@ -11,7 +11,7 @@ class DetailsController extends Controller
 {
     public function __construct()
     {
-        $this->middleware(['auth', '2fa'], ['only' => ['create', 'edit']]);
+        $this->middleware(['can:create-edit-content', '2fa'], ['only' => ['create', 'edit']]);
     }
 
     /**

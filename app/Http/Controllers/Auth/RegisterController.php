@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use App\User;
+use App\Role;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -78,7 +79,10 @@ class RegisterController extends Controller
     public function completeRegistration(Request $request)
     {
         // add the session data back to the request input
-        $request->merge(session('registration_data'));
+        if (session('registration_data') != '' && session('registration_data') != null)
+        {
+            $request->merge(session('registration_data'));
+        }
 
         // Call the default laravel authentication
         return $this->registration($request);
@@ -107,11 +111,17 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
+        $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
             'google2fa_secret' => $data['google2fa_secret'],
         ]);
+
+        $role = Role::select('id')->where('name', 'user')->first();
+
+        $user->roles()->attach($role);
+
+        return $user;
     }
 }

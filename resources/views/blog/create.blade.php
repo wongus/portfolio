@@ -6,11 +6,6 @@
     <nav class="navbar navbar-expand navbar-light bg-light p-0 neunav">
         <a class="navbar-brand" id="subLogo" href="/" style="font-size: 4vh;"><b>wongus</b></a>
         <p class="my-auto" style="color: #2F2F2F; font-family: 'Roboto'">Create a new article</p>
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link mr-2" href="/blog" style="color: #2F2F2F; font-family: 'Roboto'">Go back</a>
-            </li>
-        </ul>
     </nav>
     <div class="container text-center">
         <form class="pt-5" method="POST" action="/blog">
@@ -33,7 +28,8 @@
                 @enderror
             </div>
 
-            <button class="btn smallerButton" type="submit">Submit</button>
+           <button onclick="window.location='/blog'; return false;" class="btn smallerButton mr-6">Cancel</button>
+            <button class="btn smallerButton ml-6" type="submit">Submit</button>
         </form>
     </div>
 @endsection

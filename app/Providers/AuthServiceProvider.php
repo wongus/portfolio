@@ -27,9 +27,23 @@ class AuthServiceProvider extends ServiceProvider
         $this->registerPolicies();
 
         Passport::routes();
-
         Passport::refreshTokensExpireIn(now()->addMinutes(10));
-
         Passport::loadKeysFrom('/secret-keys/oauth');
+
+        Gate::define('manage-users', function($user) {
+            return $user->hasAnyRoles(['admin', 'analist']);
+        });
+
+        Gate::define('edit-users', function($user) {
+            return $user->hasRole('admin');
+        });
+
+        Gate::define('delete-users', function($user) {
+            return $user->hasRole('admin');
+        });
+
+        Gate::define('create-edit-content', function($user) {
+            return $user->hasRole('admin');
+        });
     }
 }
