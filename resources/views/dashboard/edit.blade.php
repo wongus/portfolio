@@ -29,8 +29,10 @@
                 </small>
                 @enderror
             </div>
-            <button class="btn smallerButton" href="/dashboard">Cancel</button>
-            <button class="btn smallerButton" type="submit">Submit</button>
+            <button onclick="window.location='/dashboard'; return false;" class="btn smallerButton mr-4"><p
+                    style="border-bottom: 1.5px solid #D1CDC7">Cancel</p></button>
+            <button class="btn smallerButton ml-4" type="submit"><p style="border-bottom: 1.5px solid #a3db2e">Submit</p>
+            </button>
         </form>
     </div>
 @endsection

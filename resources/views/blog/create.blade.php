@@ -20,7 +20,8 @@
 
             <div class="form-group pt-2">
                 <label for="Body">Body</label>
-                <textarea class="form-control" name="body" cols="30" row="5" id="body" placeholder="Enter article body"></textarea>
+                <textarea class="form-control" name="body" cols="30" row="5" id="body"
+                          placeholder="Enter article body"></textarea>
                 @error ('body')
                 <small class="form-text text-danger">
                     {{$message}}
@@ -28,8 +29,10 @@
                 @enderror
             </div>
 
-           <button onclick="window.location='/blog'; return false;" class="btn smallerButton mr-6">Cancel</button>
-            <button class="btn smallerButton ml-6" type="submit">Submit</button>
+            <button onclick="window.location='/blog'; return false;" class="btn smallerButton mr-4"><p
+                    style="border-bottom: 1.5px solid #D1CDC7">Cancel</p></button>
+            <button class="btn smallerButton ml-4" type="submit"><p style="border-bottom: 1.5px solid #a3db2e">Submit</p>
+            </button>
         </form>
     </div>
 @endsection

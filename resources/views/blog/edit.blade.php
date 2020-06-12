@@ -29,20 +29,24 @@
                 @enderror
             </div>
             <div class="row">
-                <div class="col">
-                    <form method="POST" action="/blog/{{$post->slug}}">
+                <form method="POST" action="/blog/{{$post->slug}}">
+                    <div class="col">
                         @csrf
                         @method('delete')
-                        <button class="btn smallerButton" type="delete">Delete</button>
-                    </form>
-                </div>
-                <div class="col-2 offset-6">
-                    <button onclick="window.location='/blog/{{$post->slug}}'; return false;" class="btn smallerButton">
-                        Cancel
+                        <button class="btn smallerButton p-2 ml-0" type="delete"><p
+                                style="border-bottom: 1.5px solid #e55f56">
+                                Delete</p></button>
+                    </div>
+                </form>
+                <div class="col-auto offset-9">
+                    <button onclick="window.location='/blog/{{$post->slug}}'; return false;"
+                            class="btn smallerButton p-2">
+                        <p style="border-bottom: 1.5px solid #D1CDC7">Cancel</p>
                     </button>
                 </div>
-                <div class="col-2">
-                    <button class="btn smallerButton" type="submit">Submit</button>
+                <div class="col-auto">
+                    <button class="btn smallerButton p-2" type="submit"><p style="border-bottom: 1.5px solid #a3db2e">
+                            Submit</p></button>
                 </div>
             </div>
         </form>
