@@ -3,6 +3,41 @@
 @section ('content')
     <title>wongus - portfolio</title>
     <nav class="headernav fixed-top" id="header" style="height: 15vh;">
+        <div class="container-fluid position-absolute">
+            <div class="row d-flex justify-content-end">
+                @guest
+                    <ul class="nav-links m-0 d-flex">
+                        <li class="m-2">
+                            <a style="color: #D1CDC7;" href="/login">Login</a>
+                        </li>
+                        <li class="mt-2">
+                            <p style="color: #D1CDC7;">|</p>
+                        </li>
+                        <li class="m-2">
+                            <a style="color: #D1CDC7;" href="/register">Register</a>
+                        </li>
+                    </ul>
+                @else
+                    <ul class="nav-links m-0 d-flex">
+                        <li class="m-3">
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown"
+                                   aria-haspopup="true"
+                                   aria-expanded="false">
+                                    <i class="fas fa-child"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                                    <a href="/logout" class="dropdown-item" type="button"><i class="fas fa-sign-out-alt" style="color:#e55f56"></i> Log out</a>
+                                    @can('manage-users')
+                                        <a href="admin/users" class="dropdown-item" type="button"><i class="fas fa-users-cog" style="color:#D1CDC7"></i> Manage users</a>
+                                    @endcan
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                @endguest
+            </div>
+        </div>
         <div class="pb-2 text-center">
             <b id="logo" style="font-size: 6.5vh;">wongus</b>
         </div>
