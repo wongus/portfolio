@@ -7,13 +7,13 @@
             <div class="row d-flex justify-content-end">
                 @guest
                     <ul class="nav-links m-0 d-flex">
-                        <li class="m-2">
+                        <li class="mt-3 mr-2">
                             <a style="color: #D1CDC7;" href="/login">Login</a>
                         </li>
-                        <li class="mt-2">
+                        <li class="mt-3">
                             <p style="color: #D1CDC7;">|</p>
                         </li>
-                        <li class="m-2">
+                        <li class="mt-3 ml-2 mr-3">
                             <a style="color: #D1CDC7;" href="/register">Register</a>
                         </li>
                     </ul>

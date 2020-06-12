@@ -1,6 +1,8 @@
 <?php
+
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,6 +13,15 @@ use Illuminate\Support\Facades\Auth;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//<editor-fold desc="login authentication">
+Auth::routes();
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/complete-registration', 'Auth\RegisterController@completeRegistration');
+Route::post('/2fa', function () {
+    return redirect(URL()->previous());
+})->name('2fa')->middleware('2fa');
+//</editor-fold>
 
 Route::get('/', function () {
     return view('home');
@@ -34,17 +45,7 @@ Route::get('/dashboard/course/{detail}/edit', 'DetailsController@edit');
 Route::delete('/dashboard/course/{detail}', 'DetailsController@delete');
 //</editor-fold>
 
-//<editor-fold desc="login authentication">
-Auth::routes();
-Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/complete-registration', 'Auth\RegisterController@completeRegistration');
-Route::post('/2fa', function () {
-    return redirect(URL()->previous());
-})->name('2fa')->middleware('2fa');
-//</editor-fold>
-
-Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware(['can:manage-users', '2fa'])->group(function() {
+Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware(['can:manage-users', '2fa'])->group(function () {
     Route::resource('/users', 'UsersController', ['except' => ['show', 'create', 'store']]);
 });
 
