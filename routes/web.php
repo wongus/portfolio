@@ -34,7 +34,7 @@ Route::delete('/dashboard/course/{detail}', 'DetailsController@delete');
 //</editor-fold>
 
 //<editor-fold desc="login authentication">
-Auth::routes();
+Auth::routes()->middleware('web');
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/complete-registration', 'Auth\RegisterController@completeRegistration');

@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5791bb92-3070-4b51-91e9-0c360f140e5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +187,7 @@
       <workItem from="1591860958777" duration="9830000" />
       <workItem from="1591892611030" duration="19825000" />
       <workItem from="1591944586020" duration="139000" />
-      <workItem from="1591965929420" duration="3120000" />
+      <workItem from="1591965929420" duration="8525000" />
     </task>
     <servers />
   </component>
@@ -221,10 +218,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="548" y="313" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591540493353" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591898470646">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591972546843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@-1920.0.1920.1040" timestamp="1591787329442" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591898470646" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-309.-768.1360.728@0.0.1920.1040" timestamp="1591972546843" />
   </component>
 </project>
