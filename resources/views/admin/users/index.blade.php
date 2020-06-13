@@ -2,10 +2,17 @@
 
 @section('content')
     <div class="row justify-content-center">
+        <div class="container-fluid position-absolute">
+            <div class="row d-flex justify-content-end">
+                    <a href="/" class="nav-links m-0 mr-3 d-flex">
+                        <i class="fas fa-arrow-circle-left" style="font-size: 25px; color: #212529"></i>
+                    </a>
+            </div>
+        </div>
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Users') }}</div>
                 <div class="card-body">
+                    <div class="h4 mb-3 text-center">{{ __('Users') }}</div>
                     <table class="table">
                         <thead>
                         <tr>
@@ -25,7 +32,7 @@
                                 <td>{{ implode(', ', $user->roles()->get()->pluck('name')->toArray()) }}</td>
                                 <td>
                                     @can('edit-users')
-                                        <a class="btn btn-secondary float-left mr-2"
+                                        <a class="btn btn-secondary float-left mr-2" style="border-radius: 10px; box-shadow:  5px 5px 10px #cbcaca;"
                                            href="{{ route('admin.users.edit', $user->id) }}">Edit</a>
                                     @endcan
                                     @can('delete-users')
@@ -33,7 +40,7 @@
                                               class="float-left">
                                             @csrf
                                             @method('DELETE')
-                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                            <button type="submit" style="border-radius: 10px; box-shadow:  5px 5px 10px #cbcaca;" class="btn btn-danger">Delete</button>
                                         </form>
                                     @endcan
                                 </td>

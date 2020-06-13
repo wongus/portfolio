@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5b65a26ca8.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div id="app">
