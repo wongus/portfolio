@@ -79,6 +79,15 @@
                                             style="width: 330px; border-radius: 101px; box-shadow:  5px 5px 10px #cbcaca;">
                                         {{ __('Register') }}
                                     </button>
+
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <a class="ml-5 btn btn-link"
+                                               href="{{ route('login') }}">
+                                                {{ __('I already have an account') }}
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </form>
                         </div>
