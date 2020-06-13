@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Auth;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
 //<editor-fold desc="login authentication">
 Auth::routes();
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
@@ -45,7 +47,7 @@ Route::get('/dashboard/course/{detail}/edit', 'DetailsController@edit');
 Route::delete('/dashboard/course/{detail}', 'DetailsController@delete');
 //</editor-fold>
 
-Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware(['can:manage-users', '2fa'])->group(function () {
+Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware(['can:manage-users'])->group(function () {
     Route::resource('/users', 'UsersController', ['except' => ['show', 'create', 'store']]);
 });
 
