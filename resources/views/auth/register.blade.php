@@ -80,9 +80,9 @@
                                         {{ __('Register') }}
                                     </button>
 
-                                    <div class="row">
+                                    <div class="row justify-content-center">
                                         <div class="col-auto">
-                                            <a class="ml-5 btn btn-link"
+                                            <a class="btn btn-link"
                                                href="{{ route('login') }}">
                                                 {{ __('I already have an account') }}
                                             </a>
