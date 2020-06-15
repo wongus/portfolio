@@ -26,16 +26,18 @@
                     <tr>
                         <td><a href="dashboard/course/{{$grade->id}}">{{$grade->course}}</a></td>
                         <td>{{$grade->EC}}</td>
-                        <td class="iconRow">
-                            <div class="icons">
-                                <a href="/dashboard/{{$grade->id}}/edit"><p class="editIcon icon">✎</p></a>
-                                <form method="POST" action="/dashboard/{{$grade->id}}">
-                                    @csrf
-                                    @method('delete')
-                                    <button type="icon"><p class="deleteIcon icon">✖</p></button>
-                                </form>
-                            </div>
-                        </td>
+                        @can('create-edit-content')
+                            <td class="iconRow">
+                                <div class="icons">
+                                    <a href="/dashboard/{{$grade->id}}/edit"><p class="editIcon icon">✎</p></a>
+                                    <form method="POST" action="/dashboard/{{$grade->id}}">
+                                        @csrf
+                                        @method('delete')
+                                        <button type="icon"><p class="deleteIcon icon">✖</p></button>
+                                    </form>
+                                </div>
+                            </td>
+                        @endcan
                     </tr>
                 @endforeach
             </table>
